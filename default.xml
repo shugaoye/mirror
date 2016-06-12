@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".." />
+  <default revision="master"
+           remote="github"
+           sync-j="4" />
+
+  <!-- from github port repositories -->
+  <!-- EPGQ -->
+  <project name="build" />
+  <project name="bo" />
+  <project name="armemu" />
+  <project name="cm_armemu" />
+
+</manifest>
