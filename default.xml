@@ -13,5 +13,6 @@
   <project name="bo" />
   <project name="armemu" />
   <project name="cm_armemu" />
+  <project name="manifests" />
 
 </manifest>
