@@ -7,8 +7,10 @@
            remote="github"
            sync-j="4" />
 
-  <!-- from github repositories -->
+  <!-- configuration of github repositories v1.0 -->
   <project name="manifests" />
+  <project name="mirror" />
+  <project name="local_manifests" />
 
   <!-- EPGQ -->
   <project name="build" />
