@@ -56,7 +56,7 @@
   <project name="platform/hardware/libhardware" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/libhardware_legacy" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/liblights" remote="x86" revision="marshmallow-x86" />
-  <project path=name="platform/hardware/libsensors" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/libsensors" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/ril" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/Bluetooth" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
