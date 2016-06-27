@@ -1,65 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch=".." />
+
   <remote  name="x86"
            fetch="git://gitscm.sf.net/gitroot/android-x86/" />
-  <default revision="master"
-           remote="x86"
+
+  <default revision="android-x86"
+           remote="github"
            sync-j="4" />
 
   <!-- from x86 port repositories -->
-  <project name="platform/build" />
-  <project name="kernel/common" />
-  <project name="platform/art" />
-  <project name="platform/bionic" />
-  <project name="platform/bootable/newinstaller" />
-  <project name="device/generic/common" />
-  <project name="device/generic/firmware" />
-  <project name="device/generic/x86" />
-  <project name="device/generic/x86_64" />
-  <project name="platform/external/alsa-lib" />
-  <project name="platform/external/alsa-utils" />
-  <project name="platform/external/bluetooth/bluez" />
-  <project name="platform/external/bluetooth/glib" />
-  <project name="platform/external/bluetooth/sbc" />
-  <project name="platform/external/busybox" />
-  <project name="platform/external/drm_gralloc" />
-  <project name="platform/external/drm_hwcomposer" />
-  <project name="platform/external/e2fsprogs" />
-  <project name="platform/external/eject" />
-  <project name="platform/external/exfat" />
-  <project name="platform/external/ffmpeg" />
-  <project name="platform/external/koush/Superuser" />
-  <project name="platform/external/koush/Widgets" />
-  <project name="platform/external/libdrm" />
-  <project name="platform/external/libpciaccess" />
-  <project name="platform/external/libtruezip" />
-  <project name="platform/external/llvm" />
-  <project name="platform/external/mesa" />
-  <project name="platform/external/ntfs-3g" />
-  <project name="platform/external/parted" />
-  <project name="platform/external/stagefright-plugins" />
-  <project name="platform/external/toybox" />
-  <project name="platform/external/v86d" />
-  <project name="platform/frameworks/av" />
-  <project name="platform/frameworks/base" />
-  <project name="platform/frameworks/native" />
-  <project name="platform/hardware/broadcom/wlan" />
-  <project name="platform/hardware/gps" />
-  <project name="platform/hardware/intel/libsensors" />
-  <project name="platform/hardware/libaudio" />
-  <project name="platform/hardware/libcamera" />
-  <project name="platform/hardware/libhardware" />
-  <project name="platform/hardware/libhardware_legacy" />
-  <project name="platform/hardware/liblights" />
-  <project path=name="platform/hardware/libsensors" />
-  <project name="platform/hardware/ril" />
-  <project name="platform/packages/apps/Bluetooth" />
-  <project name="platform/packages/apps/CMFileManager" />
-  <project name="platform/packages/apps/Settings" />
-  <project name="platform/packages/apps/TSCalibration2" />
-  <project name="platform/system/core" />
-  <project name="platform/system/extras" />
-  <project name="platform/system/vold" />
+  <project name="platform/build" remote="x86" revision="marshmallow-x86" />
+  <project name="kernel/common" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/art" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/bionic" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/bootable/newinstaller" remote="x86" revision="marshmallow-x86" />
+  <project name="device/generic/common" remote="x86" revision="marshmallow-x86" />
+  <project name="device/generic/firmware" remote="x86" revision="marshmallow-x86" />
+  <project name="device/generic/x86" remote="x86" revision="marshmallow-x86" />
+  <project name="device/generic/x86_64" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/alsa-lib" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/alsa-utils" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/bluetooth/bluez" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/bluetooth/glib" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/bluetooth/sbc" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/busybox" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/drm_gralloc" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/e2fsprogs" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/eject" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/exfat" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/ffmpeg" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/koush/Superuser" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/koush/Widgets" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/libdrm" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/libpciaccess" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/libtruezip" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/llvm" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/mesa" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/ntfs-3g" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/parted" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/stagefright-plugins" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/toybox" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/frameworks/av" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/frameworks/base" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/frameworks/native" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/broadcom/wlan" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/intel/libsensors" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/libaudio" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/libcamera" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/libhardware" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/libhardware_legacy" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/liblights" remote="x86" revision="marshmallow-x86" />
+  <project path=name="platform/hardware/libsensors" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/ril" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/packages/apps/Bluetooth" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/packages/apps/Settings" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/system/core" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/system/extras" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/system/vold" remote="x86" revision="marshmallow-x86" />
 
 </manifest>
