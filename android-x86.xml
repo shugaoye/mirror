@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="x86"
+           fetch="git://gitscm.sf.net/gitroot/android-x86/" />
+  <default revision="master"
+           remote="x86"
+           sync-j="4" />
+
+  <!-- from x86 port repositories -->
+  <project name="platform/build" />
+  <project name="kernel/common" />
+  <project name="platform/art" />
+  <project name="platform/bionic" />
+  <project name="platform/bootable/newinstaller" />
+  <project name="device/generic/common" />
+  <project name="device/generic/firmware" />
+  <project name="device/generic/x86" />
+  <project name="device/generic/x86_64" />
+  <project name="platform/external/alsa-lib" />
+  <project name="platform/external/alsa-utils" />
+  <project name="platform/external/bluetooth/bluez" />
+  <project name="platform/external/bluetooth/glib" />
+  <project name="platform/external/bluetooth/sbc" />
+  <project name="platform/external/busybox" />
+  <project name="platform/external/drm_gralloc" />
+  <project name="platform/external/drm_hwcomposer" />
+  <project name="platform/external/e2fsprogs" />
+  <project name="platform/external/eject" />
+  <project name="platform/external/exfat" />
+  <project name="platform/external/ffmpeg" />
+  <project name="platform/external/koush/Superuser" />
+  <project name="platform/external/koush/Widgets" />
+  <project name="platform/external/libdrm" />
+  <project name="platform/external/libpciaccess" />
+  <project name="platform/external/libtruezip" />
+  <project name="platform/external/llvm" />
+  <project name="platform/external/mesa" />
+  <project name="platform/external/ntfs-3g" />
+  <project name="platform/external/parted" />
+  <project name="platform/external/stagefright-plugins" />
+  <project name="platform/external/toybox" />
+  <project name="platform/external/v86d" />
+  <project name="platform/frameworks/av" />
+  <project name="platform/frameworks/base" />
+  <project name="platform/frameworks/native" />
+  <project name="platform/hardware/broadcom/wlan" />
+  <project name="platform/hardware/gps" />
+  <project name="platform/hardware/intel/libsensors" />
+  <project name="platform/hardware/libaudio" />
+  <project name="platform/hardware/libcamera" />
+  <project name="platform/hardware/libhardware" />
+  <project name="platform/hardware/libhardware_legacy" />
+  <project name="platform/hardware/liblights" />
+  <project path=name="platform/hardware/libsensors" />
+  <project name="platform/hardware/ril" />
+  <project name="platform/packages/apps/Bluetooth" />
+  <project name="platform/packages/apps/CMFileManager" />
+  <project name="platform/packages/apps/Settings" />
+  <project name="platform/packages/apps/TSCalibration2" />
+  <project name="platform/system/core" />
+  <project name="platform/system/extras" />
+  <project name="platform/system/vold" />
+
+</manifest>
