@@ -23,6 +23,7 @@
   <project name="x86emu" />
   <project name="x86vbox" />
   <project name="device_androVM" />
+  <project name="genymotion-kernel" />
   <project name="goldfish" />
   <project name="fbtest" />
   <project name="platform_bootable_newinstaller" />
