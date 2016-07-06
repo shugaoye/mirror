@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="cm"
-           fetch="../.."
+           fetch="git://github.com/CyanogenMod"
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-13.0" />
 
@@ -53,8 +53,8 @@
   <project name="apg" />
 
   <!-- CyanogenMod -->
-  <project name="CyanogenMod/android_bootable_recovery" remote="cm" />
-  <project name="CyanogenMod/android" remote="cm" />
+  <project name="android_bootable_recovery" remote="cm" />
+  <project name="android" remote="cm" />
 
   <!-- from original Android repositories -->
 
