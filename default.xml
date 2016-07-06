@@ -47,6 +47,10 @@
   <project name="filemanager" />
   <project name="apg" />
 
+  <!-- CyanogenMod -->
+  <project name="CyanogenMod/android_bootable_recovery" />
+  <project name="CyanogenMod/android" />
+
   <!-- from original Android repositories -->
 
 </manifest>
