@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="cm"
+           fetch="../.."
+           review="review.cyanogenmod.org"
+           revision="refs/heads/cm-13.0" />
+
   <remote  name="github"
            fetch=".." />
   <default revision="master"
@@ -48,8 +53,8 @@
   <project name="apg" />
 
   <!-- CyanogenMod -->
-  <project name="CyanogenMod/android_bootable_recovery" />
-  <project name="CyanogenMod/android" />
+  <project name="CyanogenMod/android_bootable_recovery" remote="cm" />
+  <project name="CyanogenMod/android" remote="cm" />
 
   <!-- from original Android repositories -->
 
