@@ -6,6 +6,10 @@
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-13.0" />
 
+  <remote  name="twrp"
+           fetch="git://github.com/TeamWin"
+           revision="refs/heads/cm-13.0" />
+
   <remote  name="github"
            fetch=".." />
   <default revision="master"
@@ -33,7 +37,6 @@
   <project name="fbtest" />
   <project name="platform_bootable_newinstaller" />
   <project name="device_generic_goldfish" />
-  <project name="Team-Win-Recovery-Project" />
 
   <!-- cuckoo for android -->
   <project name="cuckoo" />
@@ -55,6 +58,12 @@
   <!-- CyanogenMod -->
   <project name="android_bootable_recovery" remote="cm" />
   <project name="android" remote="cm" />
+
+  <!-- Team Win Recovery Project -->
+  <project name="Team-Win-Recovery-Project" remote="twrp" />
+  <project name="android_device_emulator_twrp" remote="twrp" />
+  <project name="android_device_emulator_twrpx86" remote="twrp" />
+  <project name="android_device_emulator_twrpx8664" remote="twrp" />
 
   <!-- from original Android repositories -->
 
