@@ -8,7 +8,7 @@
 
   <remote  name="twrp"
            fetch="git://github.com/TeamWin"
-           revision="refs/heads/cm-13.0" />
+           revision="master" />
 
   <remote  name="github"
            fetch=".." />
