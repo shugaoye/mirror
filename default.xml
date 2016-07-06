@@ -53,8 +53,8 @@
   <project name="apg" />
 
   <!-- CyanogenMod -->
-  <!-- project name="CyanogenMod/android_bootable_recovery" remote="cm" />
-  <project name="CyanogenMod/android" remote="cm" /-->
+  <project name="CyanogenMod/android_bootable_recovery" remote="cm" />
+  <project name="CyanogenMod/android" remote="cm" />
 
   <!-- from original Android repositories -->
 
