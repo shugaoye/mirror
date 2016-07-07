@@ -10,6 +10,9 @@
            fetch="git://github.com/TeamWin"
            revision="master" />
 
+  <remote  name="omnirom"
+           fetch="https://github.com/omnirom" />
+
   <remote  name="github"
            fetch=".." />
   <default revision="master"
@@ -64,6 +67,9 @@
   <project name="android_device_emulator_twrp" remote="twrp" />
   <project name="android_device_emulator_twrpx86" remote="twrp" />
   <project name="android_device_emulator_twrpx8664" remote="twrp" />
+
+  <!-- omnirom -->
+  <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- from original Android repositories -->
 
