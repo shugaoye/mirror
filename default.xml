@@ -21,6 +21,7 @@
 
   <!-- configuration of github repositories v1.0 -->
   <project name="manifests" />
+  <project name="manifest" />
   <project name="mirror" />
   <project name="local_manifests" />
 
