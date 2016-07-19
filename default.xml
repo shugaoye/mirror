@@ -61,6 +61,7 @@
 
   <!-- CyanogenMod -->
   <project name="android_bootable_recovery" remote="cm" />
+  <project name="android_external_busybox" remote="cm" />
   <project name="android" remote="cm" />
 
   <!-- Team Win Recovery Project -->
