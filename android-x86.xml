@@ -12,6 +12,7 @@
            sync-j="4" />
 
   <!-- from x86 port repositories -->
+  <project name="manifest" remote="x86" revision="marshmallow-x86" />
   <project name="platform/build" remote="x86" revision="marshmallow-x86" />
   <project name="kernel/common" remote="x86" revision="marshmallow-x86" />
   <project name="platform/art" remote="x86" revision="marshmallow-x86" />
@@ -42,6 +43,7 @@
   <project name="platform/external/mesa" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/ntfs-3g" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/parted" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/s2tc" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/stagefright-plugins" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/toybox" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/v86d" remote="x86" revision="marshmallow-x86" />
@@ -50,6 +52,7 @@
   <project name="platform/frameworks/native" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/broadcom/wlan" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/gps" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/intel/audio_media" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/intel/libsensors" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/libaudio" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/libcamera" remote="x86" revision="marshmallow-x86" />
@@ -58,8 +61,10 @@
   <project name="platform/hardware/liblights" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/libsensors" remote="x86" revision="marshmallow-x86" />
   <project name="platform/hardware/ril" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/hardware/x86power" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/Bluetooth" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/packages/apps/Eleven" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/Settings" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
   <project name="platform/system/core" remote="x86" revision="marshmallow-x86" />
