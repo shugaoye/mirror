@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch=".." />
+
+  <remote  name="x86"
+           fetch="https://github.com/android-x86-mirror/" />
+
+  <default revision="android-x86"
+           remote="github"
+           sync-j="4" />
+
+  <!-- from x86 port repositories -->
+  <project name="manifest" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_build" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="kernel_common" remote="x86" revision="kernel-4.4" />
+  <project name="platform_art" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_bionic" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_bootable_newinstaller" remote="x86" revision="marshmallow-x86" />
+  <project name="device_generic_common" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="device_generic_firmware" remote="x86" revision="marshmallow-x86" />
+  <project name="device_generic_x86" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="device_generic_x86_64" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_alsa-lib" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_alsa-utils" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_bluetooth_bluez" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_bluetooth_glib" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_bluetooth_sbc" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_busybox" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_drm_gralloc" groups="drm_gralloc" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_drm_hwcomposer" groups="drm_hwcomposer" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_e2fsprogs" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_eject" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_exfat" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_ffmpeg" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_googleanalytics" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_koush_Superuser" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_koush_Widgets" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_libdrm" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_libpciaccess" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_libtruezip" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_llvm" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_mesa" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_ntfs-3g" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_parted" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_s2tc" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_stagefright-plugins" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_toybox" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_external_v86d" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_frameworks_av" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_frameworks_native" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_gps" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_intel_audio_media" groups="intel" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_intel_libsensors" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_libaudio" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_libcamera" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_libhardware" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_libhardware_legacy" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_liblights" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_libsensors" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_ril" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_hardware_x86power" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_packages_apps_CMFileManager" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_packages_apps_Eleven" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_packages_apps_Settings" groups="pdk-fs" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_packages_apps_TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_packages_services_Analytics" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_system_core" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_system_extras" groups="pdk" remote="x86" revision="marshmallow-x86" />
+  <project name="platform_system_vold" groups="pdk" remote="x86" revision="marshmallow-x86" />
+
+</manifest>
