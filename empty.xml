@@ -4,8 +4,8 @@
   <remote  name="github"
            fetch=".." />
 
-  <remote  name="x86"
-           fetch="git://git.code.sf.net/p/android-x86/" />
+  <!-- remote  name="x86"
+           fetch="git://git.code.sf.net/p/android-x86/" /-->
 
   <default revision="android-x86"
            remote="github"
