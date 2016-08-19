@@ -5,7 +5,7 @@
            fetch=".." />
 
   <remote  name="x86"
-           fetch="git://gitscm.sf.net/gitroot/android-x86/" />
+           fetch="ssh://shugaoye@git.code.sf.net/p/android-x86/" />
 
   <default revision="android-x86"
            remote="github"
@@ -65,6 +65,7 @@
   <project name="platform/packages/apps/Bluetooth" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/Eleven" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/packages/apps/Launcher3" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/Settings" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
   <project name="platform/system/core" remote="x86" revision="marshmallow-x86" />
