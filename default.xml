@@ -5,7 +5,7 @@
            fetch=".." />
 
   <remote  name="x86"
-           fetch="ssh://shugaoye@git.code.sf.net/p/android-x86/" />
+           fetch="ssh://git.code.sf.net/p/android-x86/" />
 
   <default revision="android-x86"
            remote="github"
