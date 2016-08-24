@@ -34,6 +34,7 @@
   <project name="external_eject" remote="x86" revision="marshmallow-x86" />
   <project name="external_exfat" remote="x86" revision="marshmallow-x86" />
   <project name="external_ffmpeg" remote="x86" revision="marshmallow-x86" />
+  <project name="external_googleanalytics" remote="x86" revision="marshmallow-x86" />
   <project name="external_koush_Superuser" remote="x86" revision="marshmallow-x86" />
   <project name="external_koush_Widgets" remote="x86" revision="marshmallow-x86" />
   <project name="external_libdrm" remote="x86" revision="marshmallow-x86" />
@@ -68,6 +69,7 @@
   <project name="packages_apps_Launcher3" remote="x86" revision="marshmallow-x86" />
   <project name="packages_apps_Settings" remote="x86" revision="marshmallow-x86" />
   <project name="packages_apps_TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project name="packages_services_Analytics" remote="x86" revision="marshmallow-x86" />
   <project name="system_core" remote="x86" revision="marshmallow-x86" />
   <project name="system_extras" remote="x86" revision="marshmallow-x86" />
   <project name="system_vold" remote="x86" revision="marshmallow-x86" />

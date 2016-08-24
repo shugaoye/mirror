@@ -17,4 +17,4 @@ $ repo init -u https://github.com/shugaoye/mirror -b android-x86 -m github.xml -
            Using empty.xml and local_manifests.
            Changed according to https://sourceforge.net/p/android-x86/_list/git.
            Added github.xml.
-201608xx -
+20160824 - Synced with android-6.0.1_r61.
