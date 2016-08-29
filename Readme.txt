@@ -11,10 +11,12 @@ $ repo init -u https://github.com/shugaoye/mirror -b android-x86 --mirror
 You can also create a mirror from GitHub using the below command:
 $ repo init -u https://github.com/shugaoye/mirror -b android-x86 -m github.xml --mirror
 
+20160829 - Synced with sf-nougat-x86
+20160824 - Synced with android-6.0.1_r61.
 20160819 - Updated sourceforge URL.
            Need to config file ~/.ssh/config.
            Changed protocol to git.
            Using empty.xml and local_manifests.
            Changed according to https://sourceforge.net/p/android-x86/_list/git.
            Added github.xml.
-20160824 - Synced with android-6.0.1_r61.
+
