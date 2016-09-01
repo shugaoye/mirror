@@ -54,6 +54,7 @@
   <project name="hardware_broadcom_wlan" remote="x86" revision="marshmallow-x86" />
   <project name="hardware_gps" remote="x86" revision="marshmallow-x86" />
   <project name="hardware_intel_audio_media" remote="x86" revision="marshmallow-x86" />
+  <project name="hardware_intel_hwcomposer" remote="x86" revision="lollipop-x86" />
   <project name="hardware_intel_libsensors" remote="x86" revision="marshmallow-x86" />
   <project name="hardware_libaudio" remote="x86" revision="marshmallow-x86" />
   <project name="hardware_libcamera" remote="x86" revision="marshmallow-x86" />
