@@ -75,44 +75,44 @@
   <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- Mirror of android-x86 -->
-  <project name="platform_bionic" groups="pdk" remote="github" />
-  <project name="device_generic_common" groups="pdk" remote="x86" revision="android-x86-6.0.1_vbox" />
-  <project name="device_generic_firmware" remote="github" />
-  <project name="device_generic_x86" groups="pdk" remote="x86" revision="android-x86-6.0.1_vbox" />
-  <project name="device_generic_x86_64" groups="pdk" remote="github" />
-  <project name="platform_external_alsa-lib" remote="github" />
-  <project name="platform_external_alsa-utils" remote="github" />
-  <project name="platform_external_bluetooth_bluez" remote="github" />
-  <project name="platform_external_bluetooth_glib" remote="github" />
-  <project name="platform_external_bluetooth_sbc" remote="github" />
-  <project name="platform_external_busybox" remote="github" />
-  <project name="platform_external_drm_gralloc" groups="drm_gralloc" remote="github" />
-  <project name="platform_external_drm_hwcomposer" groups="drm_hwcomposer" remote="github" />
-  <project name="platform_external_e2fsprogs" groups="pdk" remote="github" />
-  <project name="platform_external_ffmpeg" remote="github" />
-  <project name="platform_external_libdrm" groups="pdk" remote="github" />
-  <project name="platform_external_libpciaccess" remote="github" />
-  <project name="platform_external_libtruezip" remote="github" />
-  <project name="platform_external_llvm" groups="pdk" remote="github" />
-  <project name="platform_external_mesa" remote="github" />
-  <project name="platform_external_s2tc" remote="github" />
-  <project name="platform_external_stagefright-plugins" remote="github" />
-  <project name="platform_external_v86d" remote="github" />
-  <project name="platform_frameworks_av" groups="pdk" remote="github" />
-  <project name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="android-x86-6.0.1_vbox" />
-  <project name="platform_frameworks_native" groups="pdk" remote="github" />
-  <project name="platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" />
-  <project name="platform_hardware_gps" remote="github" />
-  <project name="platform_hardware_intel_audio_media" groups="intel" remote="github" />
-  <project name="platform_hardware_intel_libsensors" remote="github" />
-  <project name="platform_hardware_libaudio" remote="github" />
-  <project name="platform_hardware_libcamera" remote="github" />
-  <project name="platform_hardware_libhardware" groups="pdk" remote="github" />
-  <project name="platform_hardware_libhardware_legacy" groups="pdk" remote="github" />
-  <project name="platform_hardware_liblights" remote="github" />
-  <project name="platform_hardware_libsensors" remote="github" />
-  <project name="platform_hardware_ril" groups="pdk" remote="github" />
-  <project name="platform_hardware_x86power" remote="github" />
-  <project name="platform_system_core" groups="pdk" remote="github" />
+  <project name="platform_bionic" groups="pdk" />
+  <project name="device_generic_common" groups="pdk" />
+  <project name="device_generic_firmware" />
+  <project name="device_generic_x86" groups="pdk"/>
+  <project name="device_generic_x86_64" groups="pdk" />
+  <project name="platform_external_alsa-lib" />
+  <project name="platform_external_alsa-utils" />
+  <project name="platform_external_bluetooth_bluez" />
+  <project name="platform_external_bluetooth_glib" />
+  <project name="platform_external_bluetooth_sbc" />
+  <project name="platform_external_busybox" />
+  <project name="platform_external_drm_gralloc" groups="drm_gralloc" />
+  <project name="platform_external_drm_hwcomposer" groups="drm_hwcomposer" />
+  <project name="platform_external_e2fsprogs" groups="pdk" />
+  <project name="platform_external_ffmpeg" />
+  <project name="platform_external_libdrm" groups="pdk" />
+  <project name="platform_external_libpciaccess" />
+  <project name="platform_external_libtruezip" />
+  <project name="platform_external_llvm" groups="pdk" />
+  <project name="platform_external_mesa" />
+  <project name="platform_external_s2tc" />
+  <project name="platform_external_stagefright-plugins" />
+  <project name="platform_external_v86d" />
+  <project name="platform_frameworks_av" groups="pdk" />
+  <project name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project name="platform_frameworks_native" groups="pdk" />
+  <project name="platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  <project name="platform_hardware_gps" />
+  <project name="platform_hardware_intel_audio_media" groups="intel" />
+  <project name="platform_hardware_intel_libsensors" />
+  <project name="platform_hardware_libaudio" />
+  <project name="platform_hardware_libcamera" />
+  <project name="platform_hardware_libhardware" groups="pdk" />
+  <project name="platform_hardware_libhardware_legacy" groups="pdk" />
+  <project name="platform_hardware_liblights" />
+  <project name="platform_hardware_libsensors" />
+  <project name="platform_hardware_ril" groups="pdk" />
+  <project name="platform_hardware_x86power" />
+  <project name="platform_system_core" groups="pdk" />
 
 </manifest>
