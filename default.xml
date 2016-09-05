@@ -41,6 +41,7 @@
   <project name="fbtest" />
   <project name="platform_bootable_newinstaller" />
   <project name="device_generic_goldfish" />
+  <project name="vboxguest-linux-modules" />
 
   <!-- cuckoo for android -->
   <project name="cuckoo" />
