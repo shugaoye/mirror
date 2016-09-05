@@ -74,6 +74,45 @@
   <!-- omnirom -->
   <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
 
-  <!-- from original Android repositories -->
+  <!-- Mirror of android-x86 -->
+  <project name="platform_bionic" groups="pdk" remote="github" />
+  <project name="device_generic_common" groups="pdk" remote="x86" revision="android-x86-6.0.1_vbox" />
+  <project name="device_generic_firmware" remote="github" />
+  <project name="device_generic_x86" groups="pdk" remote="x86" revision="android-x86-6.0.1_vbox" />
+  <project name="device_generic_x86_64" groups="pdk" remote="github" />
+  <project name="platform_external_alsa-lib" remote="github" />
+  <project name="platform_external_alsa-utils" remote="github" />
+  <project name="platform_external_bluetooth_bluez" remote="github" />
+  <project name="platform_external_bluetooth_glib" remote="github" />
+  <project name="platform_external_bluetooth_sbc" remote="github" />
+  <project name="platform_external_busybox" remote="github" />
+  <project name="platform_external_drm_gralloc" groups="drm_gralloc" remote="github" />
+  <project name="platform_external_drm_hwcomposer" groups="drm_hwcomposer" remote="github" />
+  <project name="platform_external_e2fsprogs" groups="pdk" remote="github" />
+  <project name="platform_external_ffmpeg" remote="github" />
+  <project name="platform_external_libdrm" groups="pdk" remote="github" />
+  <project name="platform_external_libpciaccess" remote="github" />
+  <project name="platform_external_libtruezip" remote="github" />
+  <project name="platform_external_llvm" groups="pdk" remote="github" />
+  <project name="platform_external_mesa" remote="github" />
+  <project name="platform_external_s2tc" remote="github" />
+  <project name="platform_external_stagefright-plugins" remote="github" />
+  <project name="platform_external_v86d" remote="github" />
+  <project name="platform_frameworks_av" groups="pdk" remote="github" />
+  <project name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="x86" revision="android-x86-6.0.1_vbox" />
+  <project name="platform_frameworks_native" groups="pdk" remote="github" />
+  <project name="platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" />
+  <project name="platform_hardware_gps" remote="github" />
+  <project name="platform_hardware_intel_audio_media" groups="intel" remote="github" />
+  <project name="platform_hardware_intel_libsensors" remote="github" />
+  <project name="platform_hardware_libaudio" remote="github" />
+  <project name="platform_hardware_libcamera" remote="github" />
+  <project name="platform_hardware_libhardware" groups="pdk" remote="github" />
+  <project name="platform_hardware_libhardware_legacy" groups="pdk" remote="github" />
+  <project name="platform_hardware_liblights" remote="github" />
+  <project name="platform_hardware_libsensors" remote="github" />
+  <project name="platform_hardware_ril" groups="pdk" remote="github" />
+  <project name="platform_hardware_x86power" remote="github" />
+  <project name="platform_system_core" groups="pdk" remote="github" />
 
 </manifest>
