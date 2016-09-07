@@ -34,6 +34,7 @@
   <project name="platform/external/eject" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/exfat" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/ffmpeg" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/external/googleanalytics" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/koush/Superuser" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/koush/Widgets" remote="x86" revision="marshmallow-x86" />
   <project name="platform/external/libdrm" remote="x86" revision="marshmallow-x86" />
@@ -65,8 +66,10 @@
   <project name="platform/packages/apps/Bluetooth" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/CMFileManager" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/Eleven" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/packages/apps/Launcher3" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/Settings" remote="x86" revision="marshmallow-x86" />
   <project name="platform/packages/apps/TSCalibration2" remote="x86" revision="marshmallow-x86" />
+  <project name="platform/packages/services/Analytics" remote="x86" revision="marshmallow-x86" />
   <project name="platform/system/core" remote="x86" revision="marshmallow-x86" />
   <project name="platform/system/extras" remote="x86" revision="marshmallow-x86" />
   <project name="platform/system/vold" remote="x86" revision="marshmallow-x86" />
