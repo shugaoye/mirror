@@ -63,6 +63,7 @@
   <project name="CyanogenMod/android" remote="cm" />
   <project name="CyanogenMod/android_bootable_recovery" remote="cm" />
   <project name="CyanogenMod/android_external_busybox" remote="cm" />
+  <project name="CyanogenMod/android_external_f2fs-tools" groups="pdk" remote="cm" />
   <project name="CyanogenMod/android_external_fuse" remote="cm" />
   <project name="CyanogenMod/android_external_ntfs-3g" remote="cm" />
 
