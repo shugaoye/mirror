@@ -67,6 +67,7 @@
   <project name="CyanogenMod/android_external_fuse" remote="cm" />
   <project name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" remote="cm" />
   <project name="CyanogenMod/android_external_ntfs-3g" remote="cm" />
+  <project name="CyanogenMod/android_external_libtar" remote="cm" />
 
   <!-- Team Win Recovery Project -->
   <project name="Team-Win-Recovery-Project" remote="twrp" />
