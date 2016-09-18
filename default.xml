@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod"
-           review="review.cyanogenmod.org"
+           fetch="git://github.com"
            revision="refs/heads/cm-13.0" />
 
   <remote  name="twrp"
@@ -61,10 +60,11 @@
   <project name="apg" />
 
   <!-- CyanogenMod -->
-  <project name="android" remote="cm" />
-  <project name="android_bootable_recovery" remote="cm" />
-  <project name="android_external_busybox" remote="cm" />
-  <project name="android_external_fuse" remote="cm" />
+  <project name="CyanogenMod/android" remote="cm" />
+  <project name="CyanogenMod/android_bootable_recovery" remote="cm" />
+  <project name="CyanogenMod/android_external_busybox" remote="cm" />
+  <project name="CyanogenMod/android_external_fuse" remote="cm" />
+  <project name="CyanogenMod/android_external_ntfs-3g" remote="cm" />
 
   <!-- Team Win Recovery Project -->
   <project name="Team-Win-Recovery-Project" remote="twrp" />
