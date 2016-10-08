@@ -32,15 +32,16 @@
   <project name="u-boot" />
 
   <!-- ASP -->
-  <project name="x86emu" />
-  <project name="x86vbox" />
+  <project name="asp-sample" />
   <project name="device_androVM" />
+  <project name="device_generic_goldfish" />
+  <project name="fbtest" />
   <project name="genymotion-kernel" />
   <project name="goldfish" />
-  <project name="fbtest" />
   <project name="platform_bootable_newinstaller" />
-  <project name="device_generic_goldfish" />
   <project name="vboxguest-linux-modules" />
+  <project name="x86emu" />
+  <project name="x86vbox" />
 
   <!-- cuckoo for android -->
   <project name="cuckoo" />

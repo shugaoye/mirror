@@ -1,6 +1,7 @@
 # mirror
 # Branch: android-x86vbox
 
+20161009 - Added asp-sample
 20160918 - Added fuse need by CMR
            Added ntfs-3g, tar for CMR build
            Replaced f2fs-tools, gptfdisk for CMR build
