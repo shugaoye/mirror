@@ -77,7 +77,8 @@
   <project name="android_device_emulator_twrpx8664" remote="twrp" />
 
   <!-- omnirom -->
-  <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
+  <project name="android_external_lz4" remote="omnirom" groups="pdk-cw-fs,pdk-fs" />
+  <project name="android_bootable_recovery" remote="omnirom" />
 
   <!-- Mirror of android-x86 -->
   <project name="platform_bionic" groups="pdk" />

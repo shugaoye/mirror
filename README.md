@@ -1,6 +1,7 @@
 # mirror
 # Branch: android-x86vbox
 
+20161209 - Added android_bootable_recovery from omnirom
 20161009 - Added asp-sample
 20160918 - Added fuse need by CMR
            Added ntfs-3g, tar for CMR build
