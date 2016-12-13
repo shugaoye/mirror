@@ -74,6 +74,7 @@
   <project name="CyanogenMod/android_external_pigz" remote="cm" />
   <project name="CyanogenMod/android_external_toybox" remote="cm" />
   <project name="CyanogenMod/android_external_mksh" remote="cm" />
+  <project name="CyanogenMod/android_external_zlib" remote="cm" />
 
   <!-- Team Win Recovery Project -->
   <project name="Team-Win-Recovery-Project" remote="twrp" />
