@@ -125,5 +125,6 @@
   <project name="platform_hardware_ril" groups="pdk" />
   <project name="platform_hardware_x86power" />
   <project name="platform_system_core" groups="pdk" />
+  <project name="platform_system_extras" groups="pdk" />
 
 </manifest>
