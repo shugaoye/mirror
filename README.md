@@ -1,6 +1,7 @@
-# mirror
+# GitHub mirror
 # Branch: android-x86vbox
 
+20161213 - Added more from CyanogenMod to build CMR
 20161209 - Added android_bootable_recovery from omnirom
 20161009 - Added asp-sample
 20160918 - Added fuse need by CMR
