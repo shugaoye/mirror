@@ -108,6 +108,7 @@
   <project name="platform_external_libtruezip" />
   <project name="platform_external_llvm" groups="pdk" />
   <project name="platform_external_mesa" />
+  <project name="platform_external_parted" />
   <project name="platform_external_s2tc" />
   <project name="platform_external_stagefright-plugins" />
   <project name="platform_external_v86d" />

@@ -1,6 +1,7 @@
 # GitHub mirror
 # Branch: android-x86vbox
 
+20170103 - Added parted.
 20161213 - Added more from CyanogenMod to build CMR (platform_system_extras, zlib, lzma)
 20161209 - Added android_bootable_recovery from omnirom
 20161009 - Added asp-sample
