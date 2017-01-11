@@ -78,10 +78,10 @@
   <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- opengapps -->
-  <project name="aosp_build" remote="opengapps" />
+  <!-- project name="aosp_build" remote="opengapps" />
   <project name="all" remote="opengapps" />
   <project name="x86" remote="opengapps" />
-  <project name="x86_64" remote="opengapps" />
+  <project name="x86_64" remote="opengapps" /-->
 
   <!-- Mirror of android-x86 -->
   <project name="platform_bionic" groups="pdk" />
