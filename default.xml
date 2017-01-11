@@ -70,6 +70,7 @@
   <project name="platform/packages/apps/Settings" remote="x86" />
   <project name="platform/packages/apps/TSCalibration2" remote="x86" />
   <project name="platform/packages/services/Analytics" remote="x86" />
+  <project name="platform/system/bt" remote="x86" />
   <project name="platform/system/core" remote="x86" />
   <project name="platform/system/extras" remote="x86" />
   <project name="platform/system/vold" remote="x86" />
