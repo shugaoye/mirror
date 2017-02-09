@@ -64,18 +64,18 @@
   <project name="apg" />
 
   <!-- CyanogenMod -->
-  <project name="android_bootable_recovery" remote="cm" />
-  <project name="android_external_busybox" remote="cm" />
-  <project name="android" remote="cm" />
+  <project path="cm/android_bootable_recovery" name="android_bootable_recovery" remote="cm" />
+  <project path="cm/android_external_busybox" name="android_external_busybox" remote="cm" />
+  <project path="cm/android" name="android" remote="cm" />
 
   <!-- Team Win Recovery Project -->
-  <project name="Team-Win-Recovery-Project" remote="twrp" />
-  <project name="android_device_emulator_twrp" remote="twrp" />
-  <project name="android_device_emulator_twrpx86" remote="twrp" />
-  <project name="android_device_emulator_twrpx8664" remote="twrp" />
+  <project path="twrp/Team-Win-Recovery-Project" name="Team-Win-Recovery-Project" remote="twrp" />
+  <project path="twrp/android_device_emulator_twrp" name="android_device_emulator_twrp" remote="twrp" />
+  <project path="twrp/android_device_emulator_twrpx86" name="android_device_emulator_twrpx86" remote="twrp" />
+  <project path="twrp/android_device_emulator_twrpx8664" name="android_device_emulator_twrpx8664" remote="twrp" />
 
   <!-- omnirom -->
-  <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
+  <project path="omnirom/android_external_lz4" name="android_external_lz4" remote="omnirom" />
 
   <!-- opengapps -->
   <!-- project name="aosp_build" remote="opengapps" />
@@ -106,6 +106,7 @@
   <project name="platform_external_mesa" />
   <project name="platform_external_s2tc" />
   <project name="platform_external_stagefright-plugins" />
+  <project name="platform_external_tcpdump" />
   <project name="platform_external_v86d" />
   <project name="platform_frameworks_av" groups="pdk" />
   <project name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
