@@ -84,6 +84,8 @@
   <project name="opengapps/x86_64" remote="opengapps" /-->
 
   <!-- Mirror of android-x86 -->
+  <project name="android_external_tcpdump" />
+
   <project name="platform_bionic" groups="pdk" />
   <project name="device_generic_common" groups="pdk" />
   <project name="device_generic_firmware" />
@@ -106,7 +108,6 @@
   <project name="platform_external_mesa" />
   <project name="platform_external_s2tc" />
   <project name="platform_external_stagefright-plugins" />
-  <project name="platform_external_tcpdump" />
   <project name="platform_external_v86d" />
   <project name="platform_frameworks_av" groups="pdk" />
   <project name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
