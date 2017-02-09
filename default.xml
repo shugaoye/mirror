@@ -2,19 +2,19 @@
 <manifest>
 
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod"
-           review="review.cyanogenmod.org"
+           fetch="git://github.com"
            revision="refs/heads/cm-13.0" />
 
   <remote  name="twrp"
-           fetch="git://github.com/TeamWin"
+           fetch="git://github.com"
            revision="master" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/omnirom" />
+           fetch="https://github.com"
+           revision="android-7.1" />
 
   <remote  name="opengapps"
-           fetch="git://github.com/opengapps" />
+           fetch="git://github.com" />
 
   <remote  name="github"
            fetch=".." />
@@ -64,24 +64,24 @@
   <project name="apg" />
 
   <!-- CyanogenMod -->
-  <project path="cm/android_bootable_recovery" name="android_bootable_recovery" remote="cm" />
-  <project path="cm/android_external_busybox" name="android_external_busybox" remote="cm" />
-  <project path="cm/android" name="android" remote="cm" />
+  <project name="CyanogenMod/android_bootable_recovery" remote="cm" />
+  <project name="CyanogenMod/android_external_busybox" remote="cm" />
+  <project name="CyanogenMod/android" remote="cm" />
 
   <!-- Team Win Recovery Project -->
-  <project path="twrp/Team-Win-Recovery-Project" name="Team-Win-Recovery-Project" remote="twrp" />
-  <project path="twrp/android_device_emulator_twrp" name="android_device_emulator_twrp" remote="twrp" />
-  <project path="twrp/android_device_emulator_twrpx86" name="android_device_emulator_twrpx86" remote="twrp" />
-  <project path="twrp/android_device_emulator_twrpx8664" name="android_device_emulator_twrpx8664" remote="twrp" />
+  <project name="TeamWin/Team-Win-Recovery-Project" remote="twrp" />
+  <project name="TeamWin/android_device_emulator_twrp" remote="twrp" />
+  <project name="TeamWin/android_device_emulator_twrpx86" remote="twrp" />
+  <project name="TeamWin/android_device_emulator_twrpx8664" remote="twrp" />
 
   <!-- omnirom -->
-  <project path="omnirom/android_external_lz4" name="android_external_lz4" remote="omnirom" />
+  <project name="omnirom/android_external_lz4" remote="omnirom" />
 
   <!-- opengapps -->
   <!-- project name="aosp_build" remote="opengapps" />
-  <project name="all" remote="opengapps" />
-  <project name="x86" remote="opengapps" />
-  <project name="x86_64" remote="opengapps" /-->
+  <project name="opengapps/all" remote="opengapps" />
+  <project name="opengapps/x86" remote="opengapps" />
+  <project name="opengapps/x86_64" remote="opengapps" /-->
 
   <!-- Mirror of android-x86 -->
   <project name="platform_bionic" groups="pdk" />
