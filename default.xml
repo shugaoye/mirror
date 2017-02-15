@@ -126,4 +126,7 @@
   <!-- LineageOS -->
   <project name="LineageOS/android_external_tcpdump" remote="github" />
 
+  <!-- Others -->
+  <project name="FSteitz/KeePass2Android" remote="github" />
+
 </manifest>
