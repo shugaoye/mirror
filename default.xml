@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="cm"
-           fetch="git://github.com"
-           revision="refs/heads/cm-13.0" />
-
-  <remote  name="twrp"
-           fetch="git://github.com"
-           revision="master" />
-
-  <remote  name="omnirom"
-           fetch="https://github.com"
-           revision="android-7.1" />
-
-  <remote  name="opengapps"
+  <remote  name="github"
            fetch="git://github.com" />
 
-  <remote  name="github"
+  <remote  name="my_github"
            fetch=".." />
   <default revision="master"
-           remote="github"
+           remote="my_github"
            sync-j="4" />
 
   <!-- configuration of github repositories v1.0 -->
@@ -64,25 +52,25 @@
   <project name="apg" />
 
   <!-- CyanogenMod -->
-  <project name="CyanogenMod/android_bootable_recovery" remote="cm" />
-  <project name="CyanogenMod/android_external_busybox" remote="cm" />
-  <project name="CyanogenMod/android" remote="cm" />
+  <project name="CyanogenMod/android_bootable_recovery" remote="github" />
+  <project name="CyanogenMod/android_external_busybox" remote="github" />
+  <project name="CyanogenMod/android" remote="github" />
 
   <!-- Team Win Recovery Project -->
-  <project name="TeamWin/Team-Win-Recovery-Project" remote="twrp" />
-  <project name="TeamWin/android_device_emulator_twrp" remote="twrp" />
-  <project name="TeamWin/android_device_emulator_twrpx86" remote="twrp" />
-  <project name="TeamWin/android_device_emulator_twrpx8664" remote="twrp" />
+  <project name="TeamWin/Team-Win-Recovery-Project" remote="github" />
+  <project name="TeamWin/android_device_emulator_twrp" remote="github" />
+  <project name="TeamWin/android_device_emulator_twrpx86" remote="github" />
+  <project name="TeamWin/android_device_emulator_twrpx8664" remote="github" />
 
   <!-- omnirom -->
-  <project name="omnirom/android_external_lz4" remote="omnirom" />
+  <project name="omnirom/android_external_lz4" remote="github" />
 
-  <!-- opengapps -->
-  <!-- project name="aosp_build" remote="opengapps" />
-  <project name="opengapps/all" remote="opengapps" />
-  <project name="opengapps/x86" remote="opengapps" />
-  <project name="opengapps/x86_64" remote="opengapps" /-->
+  <!-- LineageOS -->
+  <project name="LineageOS/android_kernel_lge_hammerhead" remote="github" />
 
+  <!-- Nexus 5 kernel -->
+  <project name="sandymanu/hammerhead_nkernel" remote="github" />
+  
   <!-- Mirror of android-x86 -->
   <project name="android_external_tcpdump" />
 
