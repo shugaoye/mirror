@@ -71,6 +71,9 @@
   <!-- Nexus 5 kernel -->
   <project name="sandymanu/hammerhead_nkernel" remote="github" />
   
+  <!-- xamarin -->
+  <project name="xamarin/proguard" remote="github" />
+  
   <!-- Mirror of android-x86 -->
   <project name="android_external_tcpdump" />
 
