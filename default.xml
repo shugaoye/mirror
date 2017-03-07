@@ -51,6 +51,16 @@
   <project name="filemanager" />
   <project name="apg" />
 
+  <!-- HTC HD2 for cm-11.0, cm-12.1 and cm-13.0-->
+  <project name="maniacx/android_kernel_htcleo-3.0_older" remote="github" />
+  <project name="maniacx/android_kernel_htc_qsd8k" remote="github" />
+  <project name="maniacx/android_device_htc_leo" remote="github" />
+  <project name="maniacx/android_hardware_qcom_display" remote="github" />
+  <project name="maniacx/android_hardware_qcom_audio" remote="github" />
+  <project name="maniacx/android_hardware_qcom_media" remote="github" />
+  <project name="maniacx/android_hardware_qcom_media-legacy" remote="github" />
+
+
   <!-- CyanogenMod -->
   <project name="CyanogenMod/android_bootable_recovery" remote="github" />
   <project name="CyanogenMod/android_external_busybox" remote="github" />
