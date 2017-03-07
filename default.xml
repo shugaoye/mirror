@@ -457,6 +457,6 @@
   <project name="LineageOS/android_system_sepolicy" groups="pdk" />
   <project name="LineageOS/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_system_vold" groups="pdk" />
-  <project name="LineageOS/android_vendor_cm" >
+  <project name="LineageOS/android_vendor_cm" />
 
 </manifest>
