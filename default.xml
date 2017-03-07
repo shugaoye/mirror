@@ -99,8 +99,57 @@
   <project name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
   <project name="LineageOS/android_external_icu" groups="pdk" />
+
+  <project name="LineageOS/android_external_fuse" />
+  <project name="LineageOS/android_external_ganymed-ssh2" />
+  <project name="LineageOS/android_external_gcc-demangle" groups="pdk" />
+  <project name="LineageOS/android_external_genext2fs" />
+  <project name="LineageOS/android_external_giflib" />
+  <project name="LineageOS/android_external_google" />
+  <project name="LineageOS/android_external_google-diff-match-patch" />
+  <project name="LineageOS/android_external_grub" />
+  <project name="LineageOS/android_external_gson" />
+  <project name="LineageOS/android_external_gtest" groups="pdk" />
+  <project name="LineageOS/android_external_guava" />
+  <project name="LineageOS/android_external_hamcrest" />
+  <project name="LineageOS/android_external_harfbuzz" />
+  <project name="LineageOS/android_external_heimdall" />
+  <project name="LineageOS/android_external_htop" />
+  <project name="LineageOS/android_external_hyphenation" />
+  <project name="LineageOS/android_external_icu4c" groups="pdk" />
+  <project name="LineageOS/android_external_iproute2" groups="pdk" />
+
   <project name="LineageOS/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_external_jemalloc" groups="pdk" />
+
+  <project name="LineageOS/android_external_iptables" />
+  <project name="LineageOS/android_external_jack" />
+  <project name="LineageOS/android_external_JakeWharton_butterknife" />
+  <project name="LineageOS/android_external_javasqlite" />
+  <project name="LineageOS/android_external_javassist" />
+  <project name="LineageOS/android_external_jdiff" />
+  <project name="LineageOS/android_external_jhead" groups="pdk" />
+  <project name="LineageOS/android_external_jmdns" />
+  <project name="LineageOS/android_external_jmonkeyengine" />
+  <project name="LineageOS/android_external_jpeg" groups="pdk" />
+  <project name="LineageOS/android_external_jsilver" />
+  <project name="LineageOS/android_external_jsr305" />
+  <project name="LineageOS/android_external_jsr308" />
+  <project name="LineageOS/android_external_jsr330" />
+  <project name="LineageOS/android_external_junit" />
+  <project name="LineageOS/android_external_kernel-headers" />
+  <project name="LineageOS/android_external_kissfft" />
+  <project name="LineageOS/ion" />
+  <project name="LineageOS/AndroidAsync" />
+  <project name="LineageOS/Superuser" />
+  <project name="LineageOS/Widgets" />
+  <project name="LineageOS/android_external_libcap-ng" />
+  <project name="LineageOS/android_external_libffi" />
+  <project name="LineageOS/android_external_libgsm" groups="pdk" />
+  <project name="LineageOS/android_external_liblzf" groups="pdk" />
+  <project name="LineageOS/android_external_libmtp" />
+  <project name="LineageOS/android_external_libncurses" />
+
   <project name="LineageOS/android_external_libnfc-nci" groups="pdk" />
   <project name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
   

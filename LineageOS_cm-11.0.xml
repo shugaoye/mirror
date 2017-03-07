@@ -100,7 +100,7 @@
   <project path="external/hyphenation" name="LineageOS/android_external_hyphenation" />
   <project path="external/icu4c" name="LineageOS/android_external_icu4c" groups="pdk" />
   <project path="external/iproute2" name="LineageOS/android_external_iproute2" groups="pdk" />
-  <project path="external/ipsec-tools" name="LineageOS/android_external_ipsec-tools" />
+  <project path="external/ipsec-tools" name="LineageOS/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iptables" name="LineageOS/android_external_iptables" />
   <project path="external/jack" name="LineageOS/android_external_jack" />
   <project path="external/JakeWharton/butterknife" name="LineageOS/android_external_JakeWharton_butterknife" />
