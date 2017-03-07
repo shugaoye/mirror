@@ -13,20 +13,89 @@
 
   <project name="LineageOS/android_build" groups="pdk,tradefed" />
   <project name="LineageOS/android_build_kati" groups="pdk,tradefed" />
+  <project name="LineageOS/android" />
+  <project name="LineageOS/android_abi_cpp" groups="pdk" />  
   <project name="LineageOS/android_art" groups="pdk" />
   <project name="LineageOS/android_bionic" groups="pdk" />
+  <project name="LineageOS/android_bootable_diskinstaller" /> 
   <project name="LineageOS/android_bootable_recovery" groups="pdk" />
+  <project name="LineageOS/android_bootable_recovery-cm" /> 
   <project name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" />
+  <project name="LineageOS/android_device_common" />
+  <project name="LineageOS/android_device_generic_armv7-a-neon" groups="pdk" />
+  <project name="LineageOS/android_device_generic_common" groups="pdk" />
+  <project name="LineageOS/android_device_generic_goldfish" groups="pdk" />
+  <project name="LineageOS/android_device_generic_mips" groups="pdk" />
+  <project name="LineageOS/android_device_generic_x86" groups="pdk" />
+  <project name="LineageOS/android_device_google_accessory_arduino" groups="device" />
+  <project name="LineageOS/android_device_google_accessory_demokit" groups="device" />
+  <project name="LineageOS/android_device_sample" groups="device" />  
   <project name="LineageOS/android_external_aac" groups="pdk" />
   <project name="LineageOS/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
+  
   <project name="LineageOS/android_external_boringssl" groups="pdk" />
+  <project name="LineageOS/android_external_android-mock" />
+  <project name="LineageOS/android_external_android-visualizer" />
+  <project name="LineageOS/android_external_ant-glob" />
+  <project name="LineageOS/android_external_ant-wireless_ant_native" />
+  <project name="LineageOS/android_external_ant-wireless_ant_service" />
+  <project name="LineageOS/android_external_ant-wireless_antradio-library" />
+  <project name="LineageOS/android_external_antlr" />
+  <project name="LineageOS/android_external_apache-harmony" />
+  <project name="LineageOS/android_external_apache-http" />
+  <project name="LineageOS/android_external_apache-qp" />
+  <project name="LineageOS/android_external_apache-xml" />
+  <project name="LineageOS/android_external_arduino" />
+  <project name="LineageOS/android_external_bash" />
+  <project name="LineageOS/android_external_bison" groups="pdk" />
+  <project name="LineageOS/android_external_blktrace" />
+  <project name="LineageOS/android_external_bluetooth_bluedroid" groups="pdk" />
+  <project name="LineageOS/android_external_bouncycastle" />
+  <project name="LineageOS/android_external_bsdiff" groups="pdk" />
+  <project name="LineageOS/android_external_bson" />
+  <project name="LineageOS/android_external_busybox" />
+  
   <project name="LineageOS/android_external_bzip2" groups="pdk" />
   <project name="LineageOS/android_external_chromium-webview" groups="pdk" />
+  <project name="LineageOS/android_external_cardslib" />
+  <project name="LineageOS/android_external_checkpolicy" groups="pdk" />
+  <project name="LineageOS/android_external_chromium" />
+  <project name="LineageOS/android_external_chromium-trace" groups="pdk" />
+  <project name="LineageOS/android_external_chromium_org" />
+  <project name="LineageOS/android_external_chromium_org_third_party_openssl" />
+  <project name="LineageOS/android_external_clang" groups="pdk" />
+  <project name="LineageOS/android_external_compiler-rt" groups="pdk" />
+  <project name="LineageOS/android_external_connectivity" />
+  <project name="LineageOS/android_external_crda" />
+  <project name="LineageOS/android_external_curl" />
+  <project name="LineageOS/android_external_dexmaker" />
+  <project name="LineageOS/android_external_dhcpcd" />
+  <project name="LineageOS/android_external_dnsmasq" groups="pdk" />
+  <project name="LineageOS/android_external_doclava" />
+  <project name="LineageOS/android_external_dropbear" />
+  
   <project name="LineageOS/android_external_e2fsprogs" groups="pdk" />
+  <project name="LineageOS/android_external_easymock" />
+  <project name="LineageOS/android_external_ebtables" />
+  <project name="LineageOS/android_external_eclipse-basebuilder" />
+  <project name="LineageOS/android_external_eclipse-windowbuilder" />
+  
   <project name="LineageOS/android_external_elfutils" groups="pdk" />
+  <project name="LineageOS/android_external_embunit" />
+  <project name="LineageOS/android_external_emma" />
+  <project name="LineageOS/android_external_esd" />
+  <project name="LineageOS/android_external_exfat" />
+  <project name="LineageOS/android_external_expat" groups="pdk" />
+  <project name="LineageOS/android_external_eyes-free" />
+  
   <project name="LineageOS/android_external_f2fs-tools" groups="pdk" />
+  <project name="LineageOS/android_external_fdlibm" />
+  <project name="LineageOS/android_external_ffmpeg" />
+  
   <project name="LineageOS/android_external_flac" groups="pdk" />
+  <project name="LineageOS/android_external_freetype" groups="pdk" />
+  
   <project name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
   <project name="LineageOS/android_external_icu" groups="pdk" />
@@ -34,30 +103,172 @@
   <project name="LineageOS/android_external_jemalloc" groups="pdk" />
   <project name="LineageOS/android_external_libnfc-nci" groups="pdk" />
   <project name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
+  
+  <project name="LineageOS/android_external_libnl-headers" groups="pdk" />
+  <project name="LineageOS/android_external_libogg" />
+  <project name="LineageOS/android_external_libpcap" />
+  <project name="LineageOS/android_external_libphonenumber" />
+  <project name="LineageOS/android_external_libphonenumbergoogle" />
+  <project name="LineageOS/android_external_libpng" groups="pdk" />
+  <project name="LineageOS/android_external_libppp" />
+  
   <project name="LineageOS/android_external_libselinux" groups="pdk" />
   <project name="LineageOS/android_external_lzma" groups="pdk" />
+  
+  <project name="LineageOS/android_external_libsepol" groups="pdk" />
+  <project name="LineageOS/android_external_libtar" />
+  <project name="LineageOS/android_external_libtruezip" />
+  <project name="LineageOS/android_external_libusb" />
+  <project name="LineageOS/android_external_libusbx" />
+  <project name="LineageOS/android_external_libusb-compat" />
+  <project name="LineageOS/android_external_libvorbis" />
+  <project name="LineageOS/android_external_libvpx" groups="pdk" />
+  <project name="LineageOS/android_external_libxml2" />
+  <project name="LineageOS/android_external_libxslt" />
+  <project name="LineageOS/android_external_libyuv" groups="libyuv" />
+  <project name="LineageOS/android_external_linux-tools-perf" />
+  <project name="LineageOS/android_external_littlemock" />
+  <project name="LineageOS/android_external_llvm" groups="pdk" />
+  <project name="LineageOS/android_external_lsof" />
+  <project name="LineageOS/android_external_lzo" />
+  <project name="LineageOS/android_external_markdown" />
+  <project name="LineageOS/android_external_mdnsresponder" groups="pdk" />
+
   <project name="LineageOS/android_external_mksh" groups="pdk" />
+  
+  <project name="LineageOS/android_external_mockwebserver" />
+  <project name="LineageOS/android_external_mp4parser" />
+  <project name="LineageOS/android_external_mtpd" />
+  <project name="LineageOS/android_external_nano" />
+  <project name="LineageOS/android_external_naver-fonts" />
+  <project name="LineageOS/android_external_netcat" />
+  <project name="LineageOS/android_external_netperf" />
+  <project name="LineageOS/android_external_neven" />
+  <project name="LineageOS/android_external_nist-sip" />
+  <project name="LineageOS/android_external_ntfs-3g" />
+  <project name="LineageOS/android_external_oauth" />
+  
   <project name="LineageOS/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
+
+  <project name="LineageOS/android_external_opencv" />
+  <project name="LineageOS/android_external_openfst" />
+  <project name="LineageOS/android_external_openssh" />
+  <project name="LineageOS/android_external_openssl" groups="pdk" />
+  <project name="LineageOS/android_external_oprofile" />
+  <project name="LineageOS/android_external_pciutils" />
+  <project name="LineageOS/android_external_pigz" />
+  <project name="LineageOS/android_external_powertop" />
+  <project name="LineageOS/android_external_ppp" />
+  <project name="LineageOS/android_external_proguard" groups="pdk-java" />
+  <project name="LineageOS/android_external_protobuf" groups="pdk" />
+  <project name="LineageOS/android_external_protobuf-c" />
+  <project name="LineageOS/android_external_qemu" />
+  <project name="LineageOS/android_external_qemu-pc-bios" />
+  <project name="LineageOS/android_external_qrngd" />
+  <project name="LineageOS/android_external_regex-re2" />
+  <project name="LineageOS/android_external_replicaisland" />
+  <project name="LineageOS/android_external_rsync" />
+  <project name="LineageOS/android_external_safe-iop" groups="pdk" />
+  <project name="LineageOS/android_external_sepolicy" groups="pdk" />
+
   <project name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" />
+
+  <project name="LineageOS/android_external_smali" />
+  <project name="LineageOS/android_external_sonivox" groups="pdk" />
+  <project name="LineageOS/android_external_speex" groups="pdk" />
+  <project name="LineageOS/android_external_spongycastle" groups="pdk" />
+  <project name="LineageOS/android_external_sqlite" groups="pdk" />
+  <project name="LineageOS/android_external_square_dagger" />
+  <project name="LineageOS/android_external_square_javawriter" />
+  <project name="LineageOS/android_external_srec" />
+  <project name="LineageOS/android_external_srtp" />
+  <project name="LineageOS/android_external_stagefright-plugins" />
+  <project name="LineageOS/android_external_stlport" groups="pdk" />
+  <project name="LineageOS/android_external_strace" />
+  <project name="LineageOS/android_external_stressapptest" />
+  <project name="LineageOS/android_external_tagsoup" />
+  <project name="LineageOS/android_external_tcpdump" />
+  
   <project name="LineageOS/android_external_tinyalsa" groups="pdk" />
   <project name="LineageOS/android_external_tinycompress" groups="pdk" />
+  
+  <project name="LineageOS/android_external_tinyxml" groups="pdk" />
+  
   <project name="LineageOS/android_external_tinyxml2" groups="pdk" />
   <project name="LineageOS/android_external_toybox" groups="pdk" />
+  
+  <project name="LineageOS/android_external_tremolo" groups="pdk" />
+  <project name="LineageOS/android_external_unrar" />
+  <project name="LineageOS/android_external_v8" />
+  <project name="LineageOS/android_external_valgrind" groups="pdk" />
+  <project name="LineageOS/android_external_vim" />
+  <project name="LineageOS/android_external_webp" />
+  <project name="LineageOS/android_external_webrtc" groups="pdk" />
+
   <project name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
+  
+  <project name="LineageOS/android_external_wpa_supplicant_8_ti" />
+  <project name="LineageOS/android_external_xmlwriter" />
+  <project name="LineageOS/android_external_xmp_toolkit" />
+  <project name="LineageOS/android_external_yaffs2" groups="pdk" />
+  <project name="LineageOS/android_external_zip" />
+
   <project name="LineageOS/android_external_zlib" groups="pdk" />
+  
+  <project name="LineageOS/android_external_zxing" />
+  
   <project name="LineageOS/android_frameworks_av" groups="pdk" />
   <project name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  
+  <project name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
+  <project name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
+  <project name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
+  <project name="LineageOS/android_frameworks_ex" />
+  <project name="LineageOS/android_frameworks_mff" />
+  <project name="LineageOS/android_frameworks_ml" />
+
   <project name="LineageOS/android_frameworks_native" groups="pdk" />
   <project name="LineageOS/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" />
+  
+  <project name="LineageOS/android_frameworks_opt_calendar" />
+  <project name="LineageOS/android_frameworks_opt_carddav" />
+  <project name="LineageOS/android_frameworks_opt_colorpicker" />
+
   <project name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-fs" />
   <project name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
   <project name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
+  
+  <project name="LineageOS/android_frameworks_opt_emoji" />
+  <project name="LineageOS/android_frameworks_opt_hardware" />
+  <project name="LineageOS/android_frameworks_opt_inputmethodcommon" />
+  <project name="LineageOS/android_frameworks_opt_mailcommon" />
+  <project name="LineageOS/android_frameworks_opt_mms" />
+  <project name="LineageOS/android_frameworks_opt_net_voip" />
+  <project name="LineageOS/android_frameworks_opt_photoviewer" />
+  <project name="LineageOS/android_frameworks_opt_timezonepicker" />
+
   <project name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
+  
+  <project name="LineageOS/android_frameworks_opt_telephony-msim" />
+  
   <project name="LineageOS/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
+  
+  <project name="LineageOS/android_frameworks_rs" groups="pdk" />
+  
   <project name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
+  
+  <project name="LineageOS/android_frameworks_testing" />
+  <project name="LineageOS/android_frameworks_volley" />
+  <project name="LineageOS/android_frameworks_webview" />
+  <project name="LineageOS/android_frameworks_wilhelm" />
+  <project name="LineageOS/android_hardware_akm" groups="pdk" />
+
   <project name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
   <project name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  
+  <project name="LineageOS/android_hardware_cm" />
+
   <project name="LineageOS/android_hardware_intel_common_libmix" groups="intel" />
   <project name="LineageOS/android_hardware_intel_common_libva" groups="intel" />
   <project name="LineageOS/android_hardware_intel_common_libwsbm" groups="intel" />
@@ -70,51 +281,128 @@
   <project name="LineageOS/android_hardware_libhardware" groups="pdk" />
   <project name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <project name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
+  
+  <project name="LineageOS/android_hardware_qcom_audio-caf" groups="caf" />
+
   <project name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" />
   <project name="LineageOS/android_hardware_qcom_bt" groups="qcom" />
   <project name="LineageOS/android_hardware_qcom_camera" groups="qcom" />
   <project name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
+
+  <project name="LineageOS/android_hardware_qcom_display-caf" groups="caf" />
+
   <project name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps" />
   <project name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
   <project name="LineageOS/android_hardware_qcom_media" groups="qcom" />
+  
+  <project name="LineageOS/android_hardware_qcom_media-caf" groups="caf" />
+  <project name="LineageOS/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
+  <project name="LineageOS/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
+  <project name="LineageOS/android_hardware_qcom_power" />
+  <project name="LineageOS/android_hardware_qcom_sensors" />
+
   <project name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project name="LineageOS/android_hardware_ril" groups="pdk" />
+
+  <project name="LineageOS/android_hardware_samsung_slsi_exynos5" />
+  <project name="LineageOS/android_hardware_ti_omap3" />
+
   <project name="LineageOS/android_hardware_ti_omap4xxx" groups="omap4" />
+
+  <project name="LineageOS/android_hardware_ti_wlan" />
+  <project name="LineageOS/android_hardware_ti_wpan" />
+
   <project name="LineageOS/android_libcore" groups="pdk" />
+
+  <project name="LineageOS/android_libnativehelper" groups="pdk-java" />
+  <project name="LineageOS/android_packages_apps_Apollo" />
+  <project name="LineageOS/android_packages_apps_BasicSmsReceiver" />
+
   <project name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+
+  <project name="LineageOS/android_packages_apps_BluetoothExt" />
+  <project name="LineageOS/android_packages_apps_Browser" />
+  <project name="LineageOS/android_packages_apps_Calculator" />
+
   <project name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
+
+  <project name="LineageOS/android_packages_apps_CMAccount" />
+  <project name="LineageOS/android_packages_apps_CMBugreport" />
+  <project name="LineageOS/android_packages_apps_CMFileManager" />
+  <project name="LineageOS/android_packages_apps_CMHome" />
+  <project name="LineageOS/android_packages_apps_CMUpdater" />
+  <project name="LineageOS/android_packages_apps_CMWallpapers" />
+
   <project name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />
+  
+  <project name="LineageOS/android_packages_apps_DSPManager" />
+
   <project name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_EmergencyInfo" />
   <project name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
+  
+  <project name="LineageOS/android_packages_apps_Exchange" />
+
   <project name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" />
+  
+  <project name="LineageOS/android_packages_apps_InCallUI" />
+
   <project name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
+
+  <project name="LineageOS/android_packages_apps_LockClock" />
+  <project name="LineageOS/android_packages_apps_Mms-caf" />
+
   <project name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
+  
+  <project name="LineageOS/android_packages_apps_Provision" />
+
   <project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
   <project name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+  
+  <project name="LineageOS/android_packages_apps_SmartCardService" />
+  <project name="LineageOS/android_packages_apps_SoundRecorder" />
+  <project name="LineageOS/android_packages_apps_SpeechRecorder" />
+
   <project name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project name="LineageOS/android_packages_apps_StorageManager" />
   <project name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
+  
   <project name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_TvSettings" groups="generic_fs" />
   <project name="LineageOS/android_packages_apps_TV" />
+  
+  <project name="LineageOS/android_packages_apps_ThemeChooser" />
+  <project name="LineageOS/android_packages_apps_Torch" />
+  <project name="LineageOS/android_packages_apps_Trebuchet" />
+
   <project name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_WallpaperPicker" />
+  
+  <project name="LineageOS/android_packages_apps_VideoEditor" />
+  <project name="LineageOS/android_packages_apps_VoiceDialer" />
+  <project name="LineageOS/android_packages_apps_VoicePlus" />
+  <project name="LineageOS/android_packages_experimental" />
+
   <project name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" />
   <project name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
+  
+  <project name="LineageOS/android_packages_inputmethods_OpenWnn" />
+  <project name="LineageOS/android_packages_inputmethods_PinyinIME" />
+  <project name="LineageOS/android_packages_providers_ApplicationsProvider" />
+
   <project name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" />
   <project name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -122,6 +410,9 @@
   <project name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
   <project name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  
+  <project name="LineageOS/android_packages_providers_ThemesProvider" />
+
   <project name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" />
   <project name="LineageOS/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
@@ -131,6 +422,11 @@
   <project name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  
+  <project name="LineageOS/android_packages_wallpapers_Basic" />
+  <project name="LineageOS/android_packages_wallpapers_Galaxy4" />
+  <project name="LineageOS/android_packages_wallpapers_HoloSpiral" />
+
   <project name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" />
@@ -138,15 +434,29 @@
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" />
+  
+  <project name="LineageOS/android_packages_wallpapers_MagicSmoke" />
+  <project name="LineageOS/android_packages_wallpapers_MusicVisualization" />
+  <project name="LineageOS/android_packages_wallpapers_NoiseField" />
+  <project name="LineageOS/android_packages_wallpapers_PhaseBeam" />
+  <project name="LineageOS/android_packages_wallpapers_PhotoPhase" />
+  <project name="LineageOS/android_prebuilt" />
+  <project name="LineageOS/android_prebuilts_misc" groups="pdk" />
+  <project name="LineageOS/android_sdk" />
+
   <project name="LineageOS/android_system_bt" groups="pdk" />
   <project name="LineageOS/android_system_core" groups="pdk" />
   <project name="LineageOS/android_system_extras" groups="pdk" />
   <project name="LineageOS/android_system_keymaster" groups="pdk" />
   <project name="LineageOS/android_system_media" groups="pdk" />
   <project name="LineageOS/android_system_netd" groups="pdk" />
+  
+  <project name="LineageOS/android_system_qcom" groups="qcom" />
+
   <project name="LineageOS/android_system_security" groups="pdk" />
   <project name="LineageOS/android_system_sepolicy" groups="pdk" />
   <project name="LineageOS/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_system_vold" groups="pdk" />
+  <project name="LineageOS/android_vendor_cm" >
 
 </manifest>
