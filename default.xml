@@ -20,6 +20,7 @@
   <project name="LineageOS/android_bootable_diskinstaller" /> 
   <project name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project name="LineageOS/android_bootable_recovery-cm" /> 
+  <project name="LineageOS/android_cts" />
   <project name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_device_common" />
