@@ -366,6 +366,7 @@
 
   <project name="LineageOS/android_hardware_samsung_slsi_exynos5" />
   <project name="LineageOS/android_hardware_ti_omap3" />
+  <project name="LineageOS/android_hardware_ti_omap4" />
 
   <project name="LineageOS/android_hardware_ti_omap4xxx" groups="omap4" />
 
