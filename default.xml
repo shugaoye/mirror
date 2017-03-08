@@ -155,6 +155,7 @@
 
   <project name="LineageOS/android_external_libnfc-nci" groups="pdk" />
   <project name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
+  <project name="LineageOS/android_external_libnfnetlink" />
   
   <project name="LineageOS/android_external_libnl-headers" groups="pdk" />
   <project name="LineageOS/android_external_libogg" />
