@@ -499,6 +499,7 @@
   <project name="LineageOS/android_system_bt" groups="pdk" />
   <project name="LineageOS/android_system_core" groups="pdk" />
   <project name="LineageOS/android_system_extras" groups="pdk" />
+  <project name="LineageOS/android_system_extras_su" groups="pdk" />
   <project name="LineageOS/android_system_keymaster" groups="pdk" />
   <project name="LineageOS/android_system_media" groups="pdk" />
   <project name="LineageOS/android_system_netd" groups="pdk" />
