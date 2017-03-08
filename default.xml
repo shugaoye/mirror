@@ -205,6 +205,9 @@
   <project name="LineageOS/android_external_openssl" groups="pdk" />
   <project name="LineageOS/android_external_oprofile" />
   <project name="LineageOS/android_external_pciutils" />
+
+  <project name="LineageOS/android_external_pcre" />
+
   <project name="LineageOS/android_external_pigz" />
   <project name="LineageOS/android_external_powertop" />
   <project name="LineageOS/android_external_ppp" />
@@ -507,5 +510,6 @@
   <project name="LineageOS/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_system_vold" groups="pdk" />
   <project name="LineageOS/android_vendor_cm" />
+  <project name="LineageOS/cm_platform_sdk" />
 
 </manifest>
