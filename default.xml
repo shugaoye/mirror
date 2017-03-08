@@ -31,7 +31,8 @@
   <project name="LineageOS/android_device_generic_x86" groups="pdk" />
   <project name="LineageOS/android_device_google_accessory_arduino" groups="device" />
   <project name="LineageOS/android_device_google_accessory_demokit" groups="device" />
-  <project name="LineageOS/android_device_sample" groups="device" />  
+  <project name="LineageOS/android_device_qcom_sepolicy" />
+  <project name="LineageOS/android_device_sample" groups="device" />
   <project name="LineageOS/android_external_aac" groups="pdk" />
   <project name="LineageOS/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
   
@@ -403,6 +404,7 @@
   
   <project name="LineageOS/android_packages_apps_DSPManager" />
 
+  <project name="LineageOS/android_packages_apps_Eleven" />
   <project name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_EmergencyInfo" />
   <project name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
@@ -487,6 +489,8 @@
   <project name="LineageOS/android_packages_wallpapers_HoloSpiral" />
 
   <project name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
+
+  <project name="LineageOS/android_prebuilts_cmsdk" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" />
   <project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
