@@ -377,6 +377,7 @@
 
   <project name="LineageOS/android_libnativehelper" groups="pdk-java" />
   <project name="LineageOS/android_packages_apps_Apollo" />
+  <project name="LineageOS/android_packages_apps_AudioFX" />
   <project name="LineageOS/android_packages_apps_BasicSmsReceiver" />
 
   <project name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
@@ -428,6 +429,7 @@
   <project name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   
+  <project name="LineageOS/android_packages_apps_Profiles" />
   <project name="LineageOS/android_packages_apps_Provision" />
 
   <project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
