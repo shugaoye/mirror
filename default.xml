@@ -288,17 +288,19 @@
   <project name="LineageOS/android_frameworks_opt_colorpicker" />
 
   <project name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-fs" />
-  <project name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
-  <project name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
-  <project name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
   
   <project name="LineageOS/android_frameworks_opt_emoji" />
   <project name="LineageOS/android_frameworks_opt_hardware" />
   <project name="LineageOS/android_frameworks_opt_inputmethodcommon" />
   <project name="LineageOS/android_frameworks_opt_mailcommon" />
   <project name="LineageOS/android_frameworks_opt_mms" />
+
+  <project name="LineageOS/android_frameworks_opt_net_ethernet" />
+  <project name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_frameworks_opt_net_voip" />
+  <project name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
   <project name="LineageOS/android_frameworks_opt_photoviewer" />
+  <project name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_frameworks_opt_timezonepicker" />
 
   <project name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
