@@ -281,10 +281,13 @@
   <project name="LineageOS/android_frameworks_ml" />
 
   <project name="LineageOS/android_frameworks_native" groups="pdk" />
-  <project name="LineageOS/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" />
+
+  <project name="LineageOS/android_frameworks_opt_bitmap" />
+  <project name="LineageOS/android_frameworks_opt_bluetooth" />
   
   <project name="LineageOS/android_frameworks_opt_calendar" />
   <project name="LineageOS/android_frameworks_opt_carddav" />
+  <project name="LineageOS/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_frameworks_opt_colorpicker" />
 
   <project name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-fs" />
