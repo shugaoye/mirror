@@ -432,6 +432,7 @@
   <project name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
   <project name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
   
+  <project name="LineageOS/android_packages_apps_SetupWizard" />
   <project name="LineageOS/android_packages_apps_SmartCardService" />
   <project name="LineageOS/android_packages_apps_SoundRecorder" />
   <project name="LineageOS/android_packages_apps_SpeechRecorder" />
