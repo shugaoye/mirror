@@ -68,6 +68,8 @@
   <project name="LineageOS/android_external_chromium" />
   <project name="LineageOS/android_external_chromium-trace" groups="pdk" />
   <project name="LineageOS/android_external_chromium_org" />
+  <project name="LineageOS/android_external_chromium_org_third_party_boringssl_src" />
+
   <project name="LineageOS/android_external_chromium_org_third_party_openssl" />
   <project name="LineageOS/android_external_chromium_org_v8" groups="pdk" />
   <project name="LineageOS/android_external_clang" groups="pdk" />
