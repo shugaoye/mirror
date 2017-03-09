@@ -178,6 +178,7 @@
   <project name="LineageOS/android_external_libusb-compat" />
   <project name="LineageOS/android_external_libvorbis" />
   <project name="LineageOS/android_external_libvpx" groups="pdk" />
+  <project name="LineageOS/android_external_libvterm" />
   <project name="LineageOS/android_external_libxml2" />
   <project name="LineageOS/android_external_libxslt" />
   <project name="LineageOS/android_external_libyuv" groups="libyuv" />
