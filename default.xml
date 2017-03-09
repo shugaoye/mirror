@@ -72,6 +72,7 @@
   <project name="LineageOS/android_external_clang" groups="pdk" />
   <project name="LineageOS/android_external_compiler-rt" groups="pdk" />
   <project name="LineageOS/android_external_connectivity" />
+  <project name="LineageOS/android_external_conscrypt" />
   <project name="LineageOS/android_external_crda" />
   <project name="LineageOS/android_external_curl" />
   <project name="LineageOS/android_external_dexmaker" />
