@@ -31,6 +31,7 @@
   <project name="LineageOS/android_device_generic_x86" groups="pdk" />
   <project name="LineageOS/android_device_google_accessory_arduino" groups="device" />
   <project name="LineageOS/android_device_google_accessory_demokit" groups="device" />
+  <project name="LineageOS/android_device_google_atv" />
   <project name="LineageOS/android_device_qcom_sepolicy" />
   <project name="LineageOS/android_device_sample" groups="device" />
   <project name="LineageOS/android_external_aac" groups="pdk" />
