@@ -157,6 +157,7 @@
   <project name="LineageOS/android_external_libmtp" />
   <project name="LineageOS/android_external_libncurses" />
 
+  <project name="LineageOS/android_external_libnetfilter_conntrack" />
   <project name="LineageOS/android_external_libnfc-nci" groups="pdk" />
   <project name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
   <project name="LineageOS/android_external_libnfnetlink" />
