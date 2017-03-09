@@ -40,7 +40,7 @@
   <project name="LineageOS/android_external_android-mock" />
   <project name="LineageOS/android_external_android-visualizer" />
 
-  <project name="LineageOS/android_external_support-prebuilt" />
+  <project name="LineageOS/external_android_support-prebuilt" />
   <project name="LineageOS/android_external_ant-glob" />
   <project name="LineageOS/android_external_ant-wireless_ant_native" />
   <project name="LineageOS/android_external_ant-wireless_ant_service" />
