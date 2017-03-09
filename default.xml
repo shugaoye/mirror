@@ -24,6 +24,7 @@
   <project name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_device_common" />
+  <project name="LineageOS/android_device_generic_arm64" />
   <project name="LineageOS/android_device_generic_armv7-a-neon" groups="pdk" />
   <project name="LineageOS/android_device_generic_common" groups="pdk" />
   <project name="LineageOS/android_device_generic_goldfish" groups="pdk" />
@@ -175,8 +176,7 @@
   <project name="LineageOS/android_external_libppp" />
   
   <project name="LineageOS/android_external_libselinux" groups="pdk" />
-  <project name="LineageOS/android_external_lzma" groups="pdk" />
-  
+
   <project name="LineageOS/android_external_libsepol" groups="pdk" />
   <project name="LineageOS/android_external_libtar" />
   <project name="LineageOS/android_external_libtruezip" />
@@ -192,8 +192,12 @@
   <project name="LineageOS/android_external_linux-tools-perf" />
   <project name="LineageOS/android_external_littlemock" />
   <project name="LineageOS/android_external_llvm" groups="pdk" />
+
   <project name="LineageOS/android_external_lsof" />
+  <project name="LineageOS/android_external_lz4" />
+  <project name="LineageOS/android_external_lzma" groups="pdk" />
   <project name="LineageOS/android_external_lzo" />
+  
   <project name="LineageOS/android_external_markdown" />
   <project name="LineageOS/android_external_mdnsresponder" groups="pdk" />
 
@@ -293,6 +297,7 @@
   <project name="LineageOS/android_frameworks_mff" />
   <project name="LineageOS/android_frameworks_minikin" />
   <project name="LineageOS/android_frameworks_ml" />
+  <project name="LineageOS/android_frameworks_multidex" />
 
   <project name="LineageOS/android_frameworks_native" groups="pdk" />
 
