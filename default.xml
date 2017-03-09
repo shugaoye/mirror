@@ -333,6 +333,7 @@
   <project name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   
   <project name="LineageOS/android_hardware_cm" />
+  <project name="LineageOS/android_hardware_cyanogen" />
 
   <project name="LineageOS/android_hardware_intel_common_libmix" groups="intel" />
   <project name="LineageOS/android_hardware_intel_common_libva" groups="intel" />
