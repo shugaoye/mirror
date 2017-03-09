@@ -117,6 +117,7 @@
   <project name="LineageOS/android_external_google" />
   <project name="LineageOS/android_external_google-diff-match-patch" />
   <project name="LineageOS/android_external_grub" />
+  <project name="LineageOS/android_external_gmock" />
   <project name="LineageOS/android_external_gson" />
   <project name="LineageOS/android_external_gtest" groups="pdk" />
   <project name="LineageOS/android_external_guava" />
@@ -134,6 +135,7 @@
   <project name="LineageOS/android_external_iptables" />
   <project name="LineageOS/android_external_jack" />
   <project name="LineageOS/android_external_JakeWharton_butterknife" />
+  <project name="LineageOS/android_external_jarjar" />
   <project name="LineageOS/android_external_javasqlite" />
   <project name="LineageOS/android_external_javassist" />
   <project name="LineageOS/android_external_jdiff" />
