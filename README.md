@@ -1,10 +1,8 @@
-# LineageOS mirror
-Branch: lineageos
+# GitHub mirror
+Branch: github
 
 Usage:
-$ repo init -u https://github.com/shugaoye/mirror.git -b lineageos --mirror
+$ repo init -u https://github.com/shugaoye/mirror.git -b github --mirror
 
-20170308 - Added android_external_pcre and cm_platform_sdk.
-20170307 - Added more projects for cm-11.0.
-20170306 - Created manifest for LineageOS mirror.
+20170320 - Created a mirror manifest for GitHub
 

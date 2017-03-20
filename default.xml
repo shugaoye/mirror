@@ -4,13 +4,123 @@
   <remote  name="github"
            fetch="git://github.com" />
 
-  <remote  name="my_github"
-           fetch=".." />
-
   <default revision="master"
            remote="github"
            sync-j="4" />
 
+  <!-- configuration of github repositories -->
+  <project name="shugaoye/manifests" />
+  <project name="shugaoye/manifest" />
+  <project name="shugaoye/mirror" />
+  <project name="shugaoye/local_manifests" />
+
+  <!-- EPGQ -->
+  <project name="shugaoye/build" />
+  <project name="shugaoye/bo" />
+  <project name="shugaoye/armemu" />
+  <project name="shugaoye/cm_armemu" />
+  <project name="shugaoye/u-boot" />
+
+  <!-- ASP -->
+  <project name="shugaoye/x86emu" />
+  <project name="shugaoye/x86vbox" />
+  <project name="shugaoye/device_androVM" />
+  <project name="shugaoye/genymotion-kernel" />
+  <project name="shugaoye/goldfish" />
+  <project name="shugaoye/fbtest" />
+  <project name="shugaoye/platform_bootable_newinstaller" />
+  <project name="shugaoye/device_generic_goldfish" />
+  <project name="shugaoye/vboxguest-linux-modules" />
+
+  <!-- cuckoo for android -->
+  <project name="shugaoye/cuckoo" />
+  <project name="shugaoye/cuckoo-droid" />
+  <project name="shugaoye/droidbot" />
+  <project name="shugaoye/droidmon" />
+  <project name="shugaoye/python-for-android" />
+  <project name="shugaoye/cuckooautoinstall" />
+  <project name="shugaoye/Widgets" />
+  <project name="shugaoye/Superuser" />
+
+  <!-- Tools -->
+  <project name="shugaoye/k-9" />
+  <project name="shugaoye/keepassdroid" />
+  <project name="shugaoye/distribution" />
+  <project name="shugaoye/filemanager" />
+  <project name="shugaoye/apg" />
+
+
+  <!-- HTC HD2 for older cm-->
+  <project name="shugaoye/android_kernel_htcleo-2.6.32" />
+  <project name="shugaoye/android_vendor_htc_leo" />
+  <project name="shugaoye/leo_local_manifest" />
+  <project name="shugaoye/device_htc_leo" />
+
+  <!-- HTC HD2 for cm-11.0, cm-12.1 and cm-13.0-->
+  <project name="shugaoye/android_kernel_htcleo-3.0_older" />
+  <project name="shugaoye/android_kernel_htc_qsd8k" />
+  <project name="shugaoye/android_device_htc_leo" />
+  <project name="shugaoye/android_hardware_qcom_display" />
+  <project name="shugaoye/android_hardware_qcom_audio" />
+  <project name="shugaoye/android_hardware_qcom_media" />
+  <project name="shugaoye/android_hardware_qcom_media-legacy" />
+
+  <!-- Team Win Recovery Project -->
+  <project name="TeamWin/android_device_emulator_twrp" />
+  <project name="TeamWin/android_device_emulator_twrpx86" />
+  <project name="TeamWin/android_device_emulator_twrpx8664" />
+  <project name="TeamWin/device_samsung_crespo" />
+
+  <!-- omnirom -->
+  <project name="omnirom/android_bootable_recovery" />
+  <project name="omnirom/android_device_lge_hammerhead" />
+  <project name="omnirom/android_external_lz4" />
+
+  <!-- xamarin -->
+  <project name="xamarin/proguard" remote="github" />
+  
+  <!-- Mirror of android-x86 -->
+  <project name="shugaoye/platform_bionic" groups="pdk" />
+  <project name="shugaoye/device_generic_common" groups="pdk" />
+  <project name="shugaoye/device_generic_firmware" />
+  <project name="shugaoye/device_generic_x86" groups="pdk"/>
+  <project name="shugaoye/device_generic_x86_64" groups="pdk" />
+  <project name="shugaoye/platform_external_alsa-lib" />
+  <project name="shugaoye/platform_external_alsa-utils" />
+  <project name="shugaoye/platform_external_bluetooth_bluez" />
+  <project name="shugaoye/platform_external_bluetooth_glib" />
+  <project name="shugaoye/platform_external_bluetooth_sbc" />
+  <project name="shugaoye/platform_external_busybox" />
+  <project name="shugaoye/platform_external_drm_gralloc" groups="drm_gralloc" />
+  <project name="shugaoye/platform_external_drm_hwcomposer" groups="drm_hwcomposer" />
+  <project name="shugaoye/platform_external_e2fsprogs" groups="pdk" />
+  <project name="shugaoye/platform_external_ffmpeg" />
+  <project name="shugaoye/platform_external_libdrm" groups="pdk" />
+  <project name="shugaoye/platform_external_libpciaccess" />
+  <project name="shugaoye/platform_external_libtruezip" />
+  <project name="shugaoye/platform_external_llvm" groups="pdk" />
+  <project name="shugaoye/platform_external_mesa" />
+  <project name="shugaoye/platform_external_s2tc" />
+  <project name="shugaoye/platform_external_stagefright-plugins" />
+  <project name="shugaoye/platform_external_v86d" />
+  <project name="shugaoye/platform_frameworks_av" groups="pdk" />
+  <project name="shugaoye/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project name="shugaoye/platform_frameworks_native" groups="pdk" />
+  <project name="shugaoye/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  <project name="shugaoye/platform_hardware_gps" />
+  <project name="shugaoye/platform_hardware_intel_audio_media" groups="intel" />
+  <project name="shugaoye/platform_hardware_intel_libsensors" />
+  <project name="shugaoye/platform_hardware_libaudio" />
+  <project name="shugaoye/platform_hardware_libcamera" />
+  <project name="shugaoye/platform_hardware_libhardware" groups="pdk" />
+  <project name="shugaoye/platform_hardware_libhardware_legacy" groups="pdk" />
+  <project name="shugaoye/platform_hardware_liblights" />
+  <project name="shugaoye/platform_hardware_libsensors" />
+  <project name="shugaoye/platform_hardware_ril" groups="pdk" />
+  <project name="shugaoye/platform_hardware_x86power" />
+  <project name="shugaoye/platform_system_core" groups="pdk" />
+
+  <!-- LineageOS -->
   <project name="LineageOS/android_build" groups="pdk,tradefed" />
   <project name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project name="LineageOS/android" />
@@ -33,6 +143,13 @@
   <project name="LineageOS/android_device_google_accessory_arduino" groups="device" />
   <project name="LineageOS/android_device_google_accessory_demokit" groups="device" />
   <project name="LineageOS/android_device_google_atv" />
+
+  <project name="LineageOS/android_device_htc_leo" />
+  <project name="LineageOS/android_device_lge_hammerhead" />
+  <project name="LineageOS/android_device_lge_hammerheadcaf" />
+  <project name="LineageOS/android_device_samsung_crespo" />
+  <project name="LineageOS/android_device_samsung_crespo4g" />
+
   <project name="LineageOS/android_device_qcom_sepolicy" />
   <project name="LineageOS/android_device_sample" groups="device" />
   <project name="LineageOS/android_external_aac" groups="pdk" />
@@ -395,6 +512,9 @@
 
   <project name="LineageOS/android_hardware_ti_wlan" />
   <project name="LineageOS/android_hardware_ti_wpan" />
+
+  <project name="LineageOS/android_kernel_lge_hammerhead" />
+  <project name="LineageOS/android_kernel_samsung_crespo" />
 
   <project name="LineageOS/android_libcore" groups="pdk" />
 
