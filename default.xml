@@ -58,6 +58,9 @@
   <project name="shugaoye/AROMA-Installer" />
   <project name="shugaoye/clk" />
   <project name="shugaoye/android_bootable_recovery" />
+  <project name="shugaoye/android_frameworks_native" />
+  <project name="shugaoye/android_build" />
+  <project name="shugaoye/android_frameworks_av" />
 
   <!-- HTC HD2 for cm-11.0, cm-12.1 and cm-13.0-->
   <project name="shugaoye/android_kernel_htcleo-3.0_older" />
