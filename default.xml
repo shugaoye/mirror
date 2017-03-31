@@ -96,37 +96,4 @@
   <project name="platform_system_core" groups="pdk" />
   <project name="platform_system_extras" groups="pdk" />
 
-  <!-- CyanogenMod -->
-  <project name="CyanogenMod/android" remote="github" />
-  <project name="CyanogenMod/android_bootable_recovery" remote="github" />
-  <project name="CyanogenMod/android_external_busybox" remote="github" />
-  <project name="CyanogenMod/android_external_f2fs-tools" groups="pdk" remote="github" />
-  <project name="CyanogenMod/android_external_fuse" remote="github" />
-  <project name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" remote="github" />
-  <project name="CyanogenMod/android_external_ntfs-3g" remote="github" />
-  <project name="CyanogenMod/android_external_libtar" remote="github" />
-  <project name="CyanogenMod/android_system_vold" remote="github" />
-  <project name="CyanogenMod/android_external_fsck_msdos" remote="github" />
-  <project name="CyanogenMod/android_external_pigz" remote="github" />
-  <project name="CyanogenMod/android_external_toybox" remote="github" />
-  <project name="CyanogenMod/android_external_mksh" remote="github" />
-  <project name="CyanogenMod/android_external_zlib" remote="github" />
-  <project name="CyanogenMod/android_external_lzma" remote="github" />
-
-  <!-- Team Win Recovery Project -->
-  <project name="TeamWin/Team-Win-Recovery-Project" remote="github" />
-  <project name="TeamWin/android_device_emulator_twrp" remote="github" />
-  <project name="TeamWin/android_device_emulator_twrpx86" remote="github" />
-  <project name="TeamWin/android_device_emulator_twrpx8664" remote="github" />
-
-  <!-- omnirom -->
-  <project name="omnirom/android_external_lz4" remote="github" />
-  <project name="omnirom/android_bootable_recovery" remote="github" />
-
-  <!-- LineageOS -->
-  <project name="LineageOS/android_external_tcpdump" remote="github" />
-
-  <!-- Others -->
-  <project name="FSteitz/KeePass2Android" remote="github" />
-
 </manifest>

@@ -1,6 +1,7 @@
-# GitHub mirror
-# Branch: android-x86vbox
+# GitHub mirror for shugaoye
+Branch: android-x86vbox
 
+20170331 - Removed all other projects and keep only my own.
 20170215 - Added FSteitz/KeePass2Android.
 20170209 - Changed remote to standardize projects.
 20170103 - Added parted.
