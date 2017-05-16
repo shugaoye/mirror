@@ -49,6 +49,7 @@
   <!-- Tools -->
   <project name="k-9" />
   <project name="keepassdroid" />
+  <project name="KeePass" />
   <project name="distribution" />
   <project name="filemanager" />
   <project name="apg" />
