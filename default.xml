@@ -45,6 +45,7 @@
   <!-- Tools -->
   <project name="shugaoye/k-9" />
   <project name="shugaoye/keepassdroid" />
+  <project name="shugaoye/KeePass2Android" />
   <project name="shugaoye/distribution" />
   <project name="shugaoye/filemanager" />
   <project name="shugaoye/apg" />
