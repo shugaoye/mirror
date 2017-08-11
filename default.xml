@@ -16,6 +16,7 @@
   <project name="manifest" />
   <project name="mirror" />
   <project name="local_manifests" />
+  <project name="docker-aosp" />
 
   <!-- EPGQ -->
   <project name="build" />

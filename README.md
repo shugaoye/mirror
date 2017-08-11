@@ -1,6 +1,7 @@
 # GitHub mirror for shugaoye
 Branch: android-x86vbox
 
+20170811 - Added docker-aosp.
 20170516 - Added KeePass.
 20170331 - Removed all other projects and keep only my own.
 20170215 - Added FSteitz/KeePass2Android.
