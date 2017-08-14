@@ -32,7 +32,7 @@
   <project name="fbtest" />
   <project name="genymotion-kernel" />
   <project name="goldfish" />
-  <project name="shugaoye/fbtest" />
+  <project name="fbtest" />
   <project name="platform_bootable_newinstaller" />
   <project name="vboxguest-linux-modules" />
   <project name="x86emu" />
