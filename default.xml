@@ -9,47 +9,8 @@
            sync-j="4" />
 
   <!-- configuration of github repositories -->
-  <project name="shugaoye/manifests" />
-  <project name="shugaoye/manifest" />
-  <project name="shugaoye/mirror" />
-  <project name="shugaoye/local_manifests" />
 
-  <!-- EPGQ -->
-  <project name="shugaoye/build" />
-  <project name="shugaoye/bo" />
-  <project name="shugaoye/armemu" />
-  <project name="shugaoye/cm_armemu" />
-  <project name="shugaoye/u-boot" />
-
-  <!-- ASP -->
-  <project name="shugaoye/x86emu" />
-  <project name="shugaoye/x86vbox" />
-  <project name="shugaoye/device_androVM" />
-  <project name="shugaoye/genymotion-kernel" />
-  <project name="shugaoye/goldfish" />
-  <project name="shugaoye/fbtest" />
-  <project name="shugaoye/platform_bootable_newinstaller" />
-  <project name="shugaoye/device_generic_goldfish" />
-  <project name="shugaoye/vboxguest-linux-modules" />
-
-  <!-- cuckoo for android -->
-  <project name="shugaoye/cuckoo" />
-  <project name="shugaoye/cuckoo-droid" />
-  <project name="shugaoye/droidbot" />
-  <project name="shugaoye/droidmon" />
-  <project name="shugaoye/python-for-android" />
-  <project name="shugaoye/cuckooautoinstall" />
-  <project name="shugaoye/Widgets" />
-  <project name="shugaoye/Superuser" />
-
-  <!-- Tools -->
-  <project name="shugaoye/k-9" />
-  <project name="shugaoye/keepassdroid" />
-  <project name="shugaoye/KeePass2Android" />
-  <project name="shugaoye/distribution" />
-  <project name="shugaoye/filemanager" />
-  <project name="shugaoye/apg" />
-
+  <project name="shugaoye/qemu" />
 
   <!-- HTC HD2 for older cm-->
   <project name="shugaoye/android_kernel_htcleo-2.6.32" />
@@ -86,47 +47,6 @@
   <!-- xamarin -->
   <project name="xamarin/proguard" remote="github" />
   
-  <!-- Mirror of android-x86 -->
-  <project name="shugaoye/platform_bionic" groups="pdk" />
-  <project name="shugaoye/device_generic_common" groups="pdk" />
-  <project name="shugaoye/device_generic_firmware" />
-  <project name="shugaoye/device_generic_x86" groups="pdk"/>
-  <project name="shugaoye/device_generic_x86_64" groups="pdk" />
-  <project name="shugaoye/platform_external_alsa-lib" />
-  <project name="shugaoye/platform_external_alsa-utils" />
-  <project name="shugaoye/platform_external_bluetooth_bluez" />
-  <project name="shugaoye/platform_external_bluetooth_glib" />
-  <project name="shugaoye/platform_external_bluetooth_sbc" />
-  <project name="shugaoye/platform_external_busybox" />
-  <project name="shugaoye/platform_external_drm_gralloc" groups="drm_gralloc" />
-  <project name="shugaoye/platform_external_drm_hwcomposer" groups="drm_hwcomposer" />
-  <project name="shugaoye/platform_external_e2fsprogs" groups="pdk" />
-  <project name="shugaoye/platform_external_ffmpeg" />
-  <project name="shugaoye/platform_external_libdrm" groups="pdk" />
-  <project name="shugaoye/platform_external_libpciaccess" />
-  <project name="shugaoye/platform_external_libtruezip" />
-  <project name="shugaoye/platform_external_llvm" groups="pdk" />
-  <project name="shugaoye/platform_external_mesa" />
-  <project name="shugaoye/platform_external_s2tc" />
-  <project name="shugaoye/platform_external_stagefright-plugins" />
-  <project name="shugaoye/platform_external_v86d" />
-  <project name="shugaoye/platform_frameworks_av" groups="pdk" />
-  <project name="shugaoye/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-  <project name="shugaoye/platform_frameworks_native" groups="pdk" />
-  <project name="shugaoye/platform_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
-  <project name="shugaoye/platform_hardware_gps" />
-  <project name="shugaoye/platform_hardware_intel_audio_media" groups="intel" />
-  <project name="shugaoye/platform_hardware_intel_libsensors" />
-  <project name="shugaoye/platform_hardware_libaudio" />
-  <project name="shugaoye/platform_hardware_libcamera" />
-  <project name="shugaoye/platform_hardware_libhardware" groups="pdk" />
-  <project name="shugaoye/platform_hardware_libhardware_legacy" groups="pdk" />
-  <project name="shugaoye/platform_hardware_liblights" />
-  <project name="shugaoye/platform_hardware_libsensors" />
-  <project name="shugaoye/platform_hardware_ril" groups="pdk" />
-  <project name="shugaoye/platform_hardware_x86power" />
-  <project name="shugaoye/platform_system_core" groups="pdk" />
-
   <!-- LineageOS -->
   <project name="LineageOS/android_build" groups="pdk,tradefed" />
   <project name="LineageOS/android_build_kati" groups="pdk,tradefed" />
