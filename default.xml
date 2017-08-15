@@ -65,6 +65,7 @@
   <project name="platform/hardware/x86power" remote="x86" />
   <project name="platform/packages/apps/Bluetooth" remote="x86" />
   <project name="platform/packages/apps/CMFileManager" remote="x86" />
+  <project name="platform/packages/apps/Camera2" remote="x86" />
   <project name="platform/packages/apps/Eleven" remote="x86" />
   <project name="platform/packages/apps/Launcher3" remote="x86" />
   <project name="platform/packages/apps/Settings" remote="x86" />
