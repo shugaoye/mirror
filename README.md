@@ -1,6 +1,7 @@
 # GitHub mirror for shugaoye
 Branch: android-x86vbox
 
+20170825 - Added x86qemu and x86_64qemu
 20170814 - Updated from branch github.
 20170811 - Added docker-aosp.
 20170516 - Added KeePass.

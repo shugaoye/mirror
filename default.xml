@@ -33,9 +33,12 @@
   <project name="goldfish" />
   <project name="fbtest" />
   <project name="platform_bootable_newinstaller" />
+  <project name="android_bootable_recovery" />
   <project name="vboxguest-linux-modules" />
   <project name="x86emu" />
   <project name="x86vbox" />
+  <project name="x86qemu" />
+  <project name="x86_64qemu" />
 
   <!-- cuckoo for android -->
   <project name="cuckoo" />
