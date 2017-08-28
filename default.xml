@@ -34,6 +34,7 @@
   <project name="platform/external/eject" remote="x86" />
   <project name="platform/external/exfat" remote="x86" />
   <project name="platform/external/ffmpeg" remote="x86" />
+  <project name="platform/external/gbm_gralloc" remote="x86" />
   <project name="platform/external/googleanalytics" remote="x86" />
   <project name="platform/external/koush/Superuser" remote="x86" />
   <project name="platform/external/koush/Widgets" remote="x86" />
@@ -42,6 +43,7 @@
   <project name="platform/external/libtruezip" remote="x86" />
   <project name="platform/external/llvm" remote="x86" />
   <project name="platform/external/mesa" remote="x86" />
+  <project name="platform/external/mksh" remote="x86" />
   <project name="platform/external/ntfs-3g" remote="x86" />
   <project name="platform/external/parted" remote="x86" />
   <project name="platform/external/s2tc" remote="x86" />
@@ -54,6 +56,8 @@
   <project name="platform/hardware/broadcom/wlan" remote="x86" />
   <project name="platform/hardware/gps" remote="x86" />
   <project name="platform/hardware/intel/audio_media" remote="x86" />
+  <project name="platform/hardware/intel/common/libva" remote="x86" />
+  <project name="platform/hardware/intel/common/vaapi" remote="x86" />
   <project name="platform/hardware/intel/libsensors" remote="x86" />
   <project name="platform/hardware/libaudio" remote="x86" />
   <project name="platform/hardware/libcamera" remote="x86" />
@@ -67,13 +71,17 @@
   <project name="platform/packages/apps/CMFileManager" remote="x86" />
   <project name="platform/packages/apps/Camera2" remote="x86" />
   <project name="platform/packages/apps/Eleven" remote="x86" />
+  <project name="platform/packages/apps/Gallery2" remote="x86" />
   <project name="platform/packages/apps/Launcher3" remote="x86" />
   <project name="platform/packages/apps/Settings" remote="x86" />
   <project name="platform/packages/apps/TSCalibration2" remote="x86" />
+  <project name="platform/packages/apps/Taskbar" remote="x86" />
   <project name="platform/packages/services/Analytics" remote="x86" />
   <project name="platform/system/bt" remote="x86" />
   <project name="platform/system/core" remote="x86" />
   <project name="platform/system/extras" remote="x86" />
+  <project name="platform/system/media" remote="x86" />
+  <project name="platform/system/netd" remote="x86" />
   <project name="platform/system/vold" remote="x86" />
 
 </manifest>
