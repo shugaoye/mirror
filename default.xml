@@ -37,8 +37,16 @@
   <project name="vboxguest-linux-modules" />
   <project name="x86emu" />
   <project name="x86vbox" />
+
+  <!-- x86qemu -->
   <project name="x86qemu" />
   <project name="x86_64qemu" />
+  <project name="spice" />
+  <project name="spice-gtk" />
+  <project name="spice-protocol" />
+  <project name="virt-viewer" />
+  <project name="docker-spice" />
+
 
   <!-- cuckoo for android -->
   <project name="cuckoo" />
