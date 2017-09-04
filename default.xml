@@ -46,6 +46,7 @@
   <project name="spice-protocol" />
   <project name="spice-common" />
   <project name="virt-viewer" />
+  <project name="keycodemapdb" />
   <project name="docker-spice" />
 
 
