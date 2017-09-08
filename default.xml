@@ -48,6 +48,7 @@
   <project name="virt-viewer" />
   <project name="keycodemapdb" />
   <project name="virglrenderer" />
+  <project name="glmark2" />
   <project name="docker-spice" />
 
 
