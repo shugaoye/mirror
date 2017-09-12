@@ -48,6 +48,7 @@
   <project name="platform/external/parted" remote="x86" />
   <project name="platform/external/s2tc" remote="x86" />
   <project name="platform/external/stagefright-plugins" remote="x86" />
+  <project name="platform/external/swiftshader" remote="x86" />
   <project name="platform/external/toybox" remote="x86" />
   <project name="platform/external/v86d" remote="x86" />
   <project name="platform/frameworks/av" remote="x86" />
