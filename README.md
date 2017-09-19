@@ -1,6 +1,7 @@
 # GitHub mirror for shugaoye
 Branch: android-x86vbox
 
+20170919 - Added celt.
 20170908 - Added glmark2.
 20170904 - Added virglrenderer, keycodemapdb and spice-common.
 20170903 - Added docker-spice, spice, spice-gtk, spice-protocol and virt-viewer.

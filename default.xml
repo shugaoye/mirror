@@ -50,7 +50,7 @@
   <project name="virglrenderer" />
   <project name="glmark2" />
   <project name="docker-spice" />
-
+  <project name="celt" />
 
   <!-- cuckoo for android -->
   <project name="cuckoo" />
