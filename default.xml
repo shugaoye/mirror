@@ -8,7 +8,21 @@
            remote="github"
            sync-j="4" />
 
-  <!-- configuration of github repositories -->
+  <!-- linaro-swg -->
+  <project name="linaro-swg/bios_qemu_tz_arm" />
+  <project name="linaro-swg/optee_benchmark" />
+  <project name="linaro-swg/soc_term" />
+  <project name="linaro-swg/gen_rootfs" />
+  <project name="linaro-swg/optee_examples" />
+
+  <!-- robherring -->
+  <project name="robherring/generic_device" />
+  <project name="robherring/mesa" />
+  <project name="robherring/gbm_gralloc" />
+  <project name="robherring/drm_hwcomposer" />
+  <project name="robherring/libpciaccess" />
+  <project name="robherring/android-iio-sensors-hal" />
+
   <!-- OP-TEE -->
   <project name="OP-TEE/build" />
   <project name="OP-TEE/optee_client" />
