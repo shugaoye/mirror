@@ -17,9 +17,9 @@
 
   <!-- robherring -->
   <project name="robherring/generic_device" />
-  <project name="robherring/mesa" />
-  <project name="robherring/gbm_gralloc" />
-  <project name="robherring/drm_hwcomposer" />
+  <!-- project name="robherring/mesa" /-->
+  <!-- project name="robherring/gbm_gralloc" /-->
+  <!-- project name="robherring/drm_hwcomposer" /-->
   <project name="robherring/libpciaccess" />
   <project name="robherring/android-iio-sensors-hal" />
 
