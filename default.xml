@@ -9,7 +9,13 @@
            sync-j="4" />
 
   <!-- configuration of github repositories -->
+  <!-- OP-TEE -->
+  <project name="OP-TEE/build" />
+  <project name="OP-TEE/optee_client" />
+  <project name="OP-TEE/optee_os" />
+  <project name="OP-TEE/optee_test" />
 
+  <!-- shugaoye -->
   <project name="shugaoye/qemu" />
 
   <!-- HTC HD2 for older cm-->

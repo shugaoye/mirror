@@ -4,6 +4,7 @@ Branch: github
 Usage:
 $ repo init -u https://github.com/shugaoye/mirror.git -b github --mirror
 
+20171109 - Added OP-TEE
 20170823 - Added aSPICE
 20170814 - Moved all books related projects to branch android-x86vbox
 20170801 - Added KeePass2Android
