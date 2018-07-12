@@ -14,7 +14,7 @@
            fetch="https://github.com/omnirom" />
 
   <remote  name="github"
-           fetch=".." />
+           fetch="https://github.com/shugaoye" />
   <default revision="master"
            remote="github"
            sync-j="4" />
