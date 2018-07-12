@@ -14,7 +14,7 @@
            fetch="https://github.com/omnirom" />
 
   <remote  name="github"
-           fetch=".." />
+           fetch="https://github.com/shugaoye" />
   <default revision="master"
            remote="github"
            sync-j="4" />
@@ -68,8 +68,8 @@
   <!-- Team Win Recovery Project -->
   <project name="Team-Win-Recovery-Project" remote="twrp" />
   <project name="android_device_emulator_twrp" remote="twrp" />
-  <project name="android_device_emulator_twrpx86" remote="twrp" />
-  <project name="android_device_emulator_twrpx8664" remote="twrp" />
+  <project name="android_device_emulator_twrpx86" remote="twrp" revision="android-6.0" />
+  <project name="android_device_emulator_twrpx8664" remote="twrp" revision="android-5.0" />
 
   <!-- omnirom -->
   <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
