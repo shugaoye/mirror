@@ -31,6 +31,8 @@
   <project name="platform/external/drm_gralloc" remote="x86" />
   <project name="platform/external/drm_hwcomposer" remote="x86" />
   <project name="platform/external/e2fsprogs" remote="x86" />
+  <project name="platform/external/efibootmgr" remote="x86" />
+  <project name="platform/external/efivar" remote="x86" />
   <project name="platform/external/eject" remote="x86" />
   <project name="platform/external/exfat" remote="x86" />
   <project name="platform/external/ffmpeg" remote="x86" />
@@ -45,6 +47,7 @@
   <project name="platform/external/mesa" remote="x86" />
   <project name="platform/external/mksh" remote="x86" />
   <project name="platform/external/ntfs-3g" remote="x86" />
+  <project name="platform/external/openssh" remote="x86" />
   <project name="platform/external/parted" remote="x86" />
   <project name="platform/external/s2tc" remote="x86" />
   <project name="platform/external/stagefright-plugins" remote="x86" />
@@ -79,6 +82,7 @@
   <project name="platform/packages/apps/Taskbar" remote="x86" />
   <project name="platform/packages/services/Analytics" remote="x86" />
   <project name="platform/system/bt" remote="x86" />
+  <project name="platform/system/connectivity/wificond" remote="x86" />
   <project name="platform/system/core" remote="x86" />
   <project name="platform/system/extras" remote="x86" />
   <project name="platform/system/media" remote="x86" />
