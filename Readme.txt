@@ -8,10 +8,11 @@ We can refer to the android-x86 manifest at:
 https://github.com/android-x86-mirror/manifest
 
 To create a mirror of android-x86, we can use the below command to initialize a repo:
-$ repo init -u https://github.com/shugaoye/mirror -b android-x86 --mirror
+$ repo init -u https://github.com/shugaoye/mirror -b android-x86-osdn --mirror
 You can also create a mirror from GitHub using the below command:
-$ repo init -u https://github.com/shugaoye/mirror -b android-x86 -m github.xml --mirror
+$ repo init -u https://github.com/shugaoye/mirror -b android-x86-osdn -m github.xml --mirror
 
+20181003 - Updated to 170c5aa. android-8.1.0_r46.
 20170912 - Updated to oreo-x86 branch.
 20170828 - Updated to android-7.1.2_r33. (c93b3cc73155bea3c9b598e447d7385c008aa15e).
 20170815 - Added platform/packages/apps/Camera2.
