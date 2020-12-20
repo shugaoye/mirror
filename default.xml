@@ -12,9 +12,9 @@
            sync-j="4" />
 
   <!-- Local repositories at github/shugaoye -->
-  <project name="shugaoye/docker-alpine-git" remote="shugaoye" />
+  <project path="github/shugaoye/docker-alpine-git" name="docker-alpine-git" remote="shugaoye" />
 
   <!-- GitHub repositories -->
-  <project name="github/github/gitignore"/>
+  <project path="github/github/gitignore" name="github/gitignore"/>
 
 </manifest>
