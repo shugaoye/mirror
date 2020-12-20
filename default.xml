@@ -17,4 +17,12 @@
   <!-- GitHub repositories -->
   <project name="github/gitignore"/>
 
+  <!-- shadowsocks repositories -->
+  <project name="shadowsocks/badvpn"/>
+  <project name="shadowsocks/libancillary"/>
+  <project name="shadowsocks/libevent"/>
+  <project name="shadowsocks/redsocks"/>
+  <project name="shadowsocks/shadowsocks-android"/>
+  <project name="shadowsocks/shadowsocks-rust"/>
+
 </manifest>
