@@ -25,4 +25,7 @@
   <project name="shadowsocks/shadowsocks-android"/>
   <project name="shadowsocks/shadowsocks-rust"/>
 
+  <!-- shadowsocks repositories -->
+  <project name="sovworks/edslite"/>
+  
 </manifest>
