@@ -1,6 +1,10 @@
 Manifest for mirroring a group of Git repository
 ------------------------------------------------
 
+2020-12-30: Added rhiestan/EncFSMP
+
+---
+
 Run the below command to setup a mirror.
 
 ```

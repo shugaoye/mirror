@@ -28,4 +28,7 @@
   <!-- shadowsocks repositories -->
   <project name="sovworks/edslite"/>
   
+  <!-- EncFSMP -->
+  <project name="rhiestan/EncFSMP"/>
+  
 </manifest>
