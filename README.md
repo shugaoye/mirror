@@ -1,6 +1,7 @@
 Manifest for mirroring a group of Git repository
 ------------------------------------------------
 
+2021-01-02: Added termux/termux-app
 2020-12-30: Added rhiestan/EncFSMP
 
 ---

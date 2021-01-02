@@ -31,4 +31,7 @@
   <!-- EncFSMP -->
   <project name="rhiestan/EncFSMP"/>
   
+  <!-- Termux -->
+  <project name="termux/termux-app"/>
+  
 </manifest>
