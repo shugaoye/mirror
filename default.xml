@@ -24,8 +24,9 @@
   <project name="shadowsocks/redsocks"/>
   <project name="shadowsocks/shadowsocks-android"/>
   <project name="shadowsocks/shadowsocks-rust"/>
+  <project name="Jigsaw-Code/outline-client"/>
 
-  <!-- shadowsocks repositories -->
+  <!-- edslite repositories -->
   <project name="sovworks/edslite"/>
   
   <!-- EncFSMP -->
